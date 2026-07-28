@@ -1095,30 +1095,29 @@
 <style>
   .bento-slider {
     display: flex;
-    overflow-x: hidden;
+    overflow-x: auto;
     width: 100%;
     margin-top: 2rem;
     mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
     -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .bento-slider::-webkit-scrollbar {
+    display: none;
   }
   .bento-slider-track {
     display: flex;
     gap: 1.5rem;
     width: max-content;
-    animation: marquee-scroll 25s linear infinite;
-  }
-  .bento-slider-track:hover {
-    animation-play-state: paused;
+    padding: 0 2rem;
   }
   .bento-card {
     width: calc(25vw - 2rem);
     min-width: 260px;
     max-width: 320px;
     flex-shrink: 0;
-  }
-  @keyframes marquee-scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-50% - 0.75rem)); }
   }
 </style>
 <div class="bento-slider">
@@ -1178,6 +1177,75 @@
 </div>
 </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const section = document.getElementById('the-workflow');
+    if (!section) return;
+    
+    const slider = section.querySelector('.bento-slider');
+    const track = section.querySelector('.bento-slider-track');
+    const prevBtn = section.querySelector('.bento-prev');
+    const nextBtn = section.querySelector('.bento-next');
+    
+    if (!slider || !track) return;
+    
+    let autoScrollInterval;
+    let isHovered = false;
+    
+    const cards = Array.from(track.children);
+    if (cards.length === 0) return;
+    
+    // Get total width of half the cards (original set)
+    const cardStyle = window.getComputedStyle(cards[0]);
+    const cardWidth = cards[0].offsetWidth + parseFloat(cardStyle.marginRight || 0) + parseFloat(window.getComputedStyle(track).gap || 0);
+    const totalOriginalWidth = cardWidth * (cards.length / 2);
+    
+    const startAutoScroll = () => {
+        autoScrollInterval = setInterval(() => {
+            if (isHovered) return;
+            slider.scrollBy({ left: 1, behavior: 'auto' });
+            
+            // Seamless jump
+            if (slider.scrollLeft >= totalOriginalWidth) {
+                slider.scrollTo({ left: slider.scrollLeft - totalOriginalWidth, behavior: 'auto' });
+            }
+        }, 20);
+    };
+    
+    const stopAutoScroll = () => clearInterval(autoScrollInterval);
+    
+    slider.addEventListener('mouseenter', () => isHovered = true);
+    slider.addEventListener('mouseleave', () => isHovered = false);
+    slider.addEventListener('touchstart', () => isHovered = true, { passive: true });
+    slider.addEventListener('touchend', () => {
+        setTimeout(() => isHovered = false, 1000);
+    });
+    
+    if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+            slider.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+            if (slider.scrollLeft <= 0) {
+                setTimeout(() => {
+                    slider.scrollTo({ left: totalOriginalWidth - cardWidth, behavior: 'auto' });
+                }, 400); // Wait for smooth scroll to finish
+            }
+        });
+    }
+    
+    if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+            slider.scrollBy({ left: cardWidth, behavior: 'smooth' });
+            if (slider.scrollLeft >= totalOriginalWidth) {
+                setTimeout(() => {
+                    slider.scrollTo({ left: slider.scrollLeft - totalOriginalWidth, behavior: 'auto' });
+                }, 400);
+            }
+        });
+    }
+    
+    startAutoScroll();
+});
+</script>
 
 <!-- ============================================
          SECTION 4: NO MATTER WHO'S ASKING
