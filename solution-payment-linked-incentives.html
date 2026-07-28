@@ -851,22 +851,6 @@
   .rollout-track { grid-template-columns: 1fr 1fr; }
   .rollout-track::before, .rollout-track::after { display: none; }
   .proof-stats { grid-template-columns: 1fr; }
-
-        .bento-slider {
-            mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
-            -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
-        }
-        .bento-slider-track {
-            animation: marquee-scroll 25s linear infinite;
-            width: max-content;
-        }
-        .bento-slider-track:hover {
-            animation-play-state: paused;
-        }
-        @keyframes marquee-scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(calc(-50% - 1rem)); }
-        }
 </style>
 </head>
 <body>
@@ -1053,7 +1037,7 @@
 <div class="quote-item" data-quote="">
 <div class="quote-item__num">01</div>
 <div class="quote-item__body">
-<div class="quote-item__q">Your top distributor is disputing $340K in unpaid rebates, and nobody can produce the sell-through data to prove who’s right.”</div>
+<div class="quote-item__q">Your top distributor is disputing $340K in unpaid rebates, and nobody can produce the sell-through data to prove who’s right.</div>
 <div class="quote-item__answer">Without verified data behind a claim, a rebate dispute becomes a trust problem, not just a math problem.</div>
 </div>
 <div class="quote-item-bar"></div>
@@ -1069,7 +1053,7 @@
 <div class="quote-item" data-quote="">
 <div class="quote-item__num">03</div>
 <div class="quote-item__body">
-<div class="quote-item__q">“You’re paying volume rebates on invoice data, while a chunk of that ‘sold’ inventory is still sitting unsold in a distributor’s warehouse.”</div>
+<div class="quote-item__q">You’re paying volume rebates on invoice data, while a chunk of that ‘sold’ inventory is still sitting unsold in a distributor’s warehouse.</div>
 <div class="quote-item__answer">Sell-in and sell-out are different numbers; rewarding the wrong one quietly funds channel stuffing.</div>
 </div>
 <div class="quote-item-bar"></div>
@@ -1101,102 +1085,32 @@
   </div>
 
   <div class="bento-slider" style="margin-top: 2rem; display: flex; overflow-x: auto; gap: 2rem; padding: 0 2rem 4rem 2rem; snap-type: x mandatory; -webkit-overflow-scrolling: touch; scroll-behavior: smooth;">
-    <div class="bento-slider-track" style="display: flex; gap: 2rem;">
-      
-      <!-- Card 1 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-barcode"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Verified Scan</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">A genuine sale is confirmed at the point of sale, not assumed from an invoice.</p>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-calculator"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Automatic Calculation</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">The incentive amount is calculated instantly against your own rules.</p>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-report"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Audit Trail</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">Every calculation is logged and traceable back to the verified sale.</p>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px; position: relative;">
-        <span style="position: absolute; top: -12px; right: 20px; background: #6862a7; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; z-index: 10;">→ Your ERP</span>
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-bolt"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Payout Trigger</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">The approved amount is sent to your existing finance or ERP system to disburse.</p>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-eye"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Distributor Visibility</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">Channel partners see a real-time dashboard of exactly what they've earned and why.</p>
-      </div>
-
-    
-      <!-- Duplicate for marquee -->
-<div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-barcode"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Verified Scan</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">A genuine sale is confirmed at the point of sale, not assumed from an invoice.</p>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-calculator"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Automatic Calculation</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">The incentive amount is calculated instantly against your own rules.</p>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-report"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Audit Trail</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">Every calculation is logged and traceable back to the verified sale.</p>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px; position: relative;">
-        <span style="position: absolute; top: -12px; right: 20px; background: #6862a7; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; z-index: 10;">→ Your ERP</span>
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-bolt"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Payout Trigger</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">The approved amount is sent to your existing finance or ERP system to disburse.</p>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="bento-card" data-tilt data-tilt-glare data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400" style="flex: 0 0 350px; scroll-snap-align: center; background: #f7f7fa; border: 1px solid rgba(0,0,0,0.06); padding: 2.5rem; border-radius: 20px;">
-        <div class="bento-icon" style="margin-bottom: 1.5rem; color: #6862a7; background: rgba(104, 98, 167, 0.1); width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; border-radius: 16px;">
-          <svg class="icon" width="32" height="32"><use href="#icon-eye"></use></svg>
-        </div>
-        <h3 class="bento-title" style="font-size: 1.25rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">Distributor Visibility</h3>
-        <p class="bento-desc" style="font-size: 1rem; color: rgba(0,0,0,0.6); line-height: 1.6;">Channel partners see a real-time dashboard of exactly what they've earned and why.</p>
-      </div>
-
+    <div class="bento-slider-track">
+    <div class="bento-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
+      <div class="bento-icon"><svg class="icon" height="24" width="24"><use href="#icon-barcode"></use></svg></div>
+      <h3 class="bento-title">Verified Scan</h3>
+      <p class="bento-desc">A genuine sale is confirmed at the point of sale, not assumed from an invoice.</p>
     </div>
+    <div class="bento-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
+      <div class="bento-icon"><svg class="icon" height="24" width="24"><use href="#icon-calculator"></use></svg></div>
+      <h3 class="bento-title">Automatic Calculation</h3>
+      <p class="bento-desc">The incentive amount is calculated instantly against your own rules.</p>
+    </div>
+    <div class="bento-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
+      <div class="bento-icon"><svg class="icon" height="24" width="24"><use href="#icon-report"></use></svg></div>
+      <h3 class="bento-title">Audit Trail</h3>
+      <p class="bento-desc">Every calculation is logged and traceable back to the verified sale.</p>
+    </div>
+    <div class="bento-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
+      <div class="bento-icon"><svg class="icon" height="24" width="24"><use href="#icon-bolt"></use></svg></div>
+      <h3 class="bento-title">Payout Trigger</h3>
+      <p class="bento-desc">The approved amount flows directly into your existing finance system to disburse.</p>
+    </div>
+    <div class="bento-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
+      <div class="bento-icon"><svg class="icon" height="24" width="24"><use href="#icon-eye"></use></svg></div>
+      <h3 class="bento-title">Distributor Visibility</h3>
+      <p class="bento-desc">Your partners see exactly what they've earned, eliminating disputes before they happen.</p>
+    </div></div>
   </div>
 </section>
 
@@ -1213,21 +1127,21 @@
 </div>
 <div class="integration-grid">
     <div class="int-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
-      <img alt="Finance" class="int-card-img" loading="lazy" src="assets/images/incentives/finance.jpg"/>
+      <img alt="Finance" class="int-card-img" loading="lazy" src="assets/images/incentives/finance_v2.jpg"/>
       <div class="int-card-body">
         <h3 class="int-card-title">Finance</h3>
         <p class="int-card-desc">"We need accurate accruals and undisputed payouts."</p>
       </div>
     </div>
     <div class="int-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
-      <img alt="Sales" class="int-card-img" loading="lazy" src="assets/images/incentives/sales.jpg"/>
+      <img alt="Sales" class="int-card-img" loading="lazy" src="assets/images/incentives/sales_v2.jpg"/>
       <div class="int-card-body">
         <h3 class="int-card-title">Sales</h3>
         <p class="int-card-desc">"We need distributors selling, not arguing over claims."</p>
       </div>
     </div>
     <div class="int-card" data-tilt="" data-tilt-glare="" data-tilt-max="3" data-tilt-max-glare="0.05" data-tilt-speed="400">
-      <img alt="Channel Partners" class="int-card-img" loading="lazy" src="assets/images/incentives/partners.jpg"/>
+      <img alt="Channel Partners" class="int-card-img" loading="lazy" src="assets/images/incentives/partners_v2.jpg"/>
       <div class="int-card-body">
         <h3 class="int-card-title">Channel Partners</h3>
         <p class="int-card-desc">"We need to know what we've earned and when we'll get paid."</p>
@@ -1948,6 +1862,37 @@ if (vstepList && vstepLine) {
   
   window.dispatchEvent(new Event('scroll'));
 }
+
+// =============================================
+// SLIDER AUTO-ROTATION
+// =============================================
+document.addEventListener('DOMContentLoaded', () => {
+    const carousels = document.querySelectorAll('.bento-slider');
+    carousels.forEach(carousel => {
+        let autoScroll;
+
+        // Auto rotation logic
+        const startAutoScroll = () => {
+            autoScroll = setInterval(() => {
+                if (carousel.matches(':hover')) return; // pause on hover
+                carousel.scrollBy({ left: 1, behavior: 'auto' });
+                // If reached end, jump to start
+                if(carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 1) {
+                    carousel.scrollTo({ left: 0, behavior: 'auto' });
+                }
+            }, 40);
+        };
+        startAutoScroll();
+        
+        let manualTimeout;
+        carousel.addEventListener('scroll', () => {
+            clearInterval(autoScroll);
+            clearTimeout(manualTimeout);
+            manualTimeout = setTimeout(startAutoScroll, 1500); // Resume auto scroll after 1.5s
+        });
+    });
+});
+
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 </body>
