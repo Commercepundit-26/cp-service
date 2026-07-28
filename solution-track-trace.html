@@ -1293,59 +1293,55 @@
       </div>
     </section>
     <!-- ============================================
-         SECTION 5: WHAT IT ACTUALLY SOLVES — CAROUSEL SLIDER
-         Layout: Horizontal scrolling slider
+         SECTION 5: WHAT IT ACTUALLY SOLVES — COMPARISON TABLE
+         Layout: Light bg, high-contrast table
          ============================================ -->
-    <section class="bento-section">
-      <div class="bento-inner">
-        <div class="bento-header">
+    <section class="comparison-section" style="padding-top: 60px;">
+      <div class="comparison-inner">
+        <div class="comparison-header" style="text-align: center; margin-bottom: 3rem;">
           <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">Features</p>
-          <h2>What It Actually Solves</h2>
+          <h2 class="section-title">What It Actually Solves</h2>
         </div>
+
+        <table class="comparison-table" role="table">
+          <thead>
+            <tr>
+              <th scope="col" style="width: 25%;">Feature</th>
+              <th scope="col" style="width: 35%;">The Problem It Solves</th>
+              <th scope="col" class="col-smart" style="width: 40%;">The Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="font-weight: 700;">Unit-level serialization at source</td>
+              <td>No way to trace a specific unit back to its exact production batch, line, or shift</td>
+              <td class="cell-smart">Recalls narrow to the exact affected batch, cutting recall cost and scope dramatically.</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700;">Dispatch/receipt confirmation at every stage</td>
+              <td>"Shipped" and "received" are assumed to match, but it's rarely proven.</td>
+              <td class="cell-smart">Disputed shipments and stuck working capital drop, because custody is proven, not assumed.</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700;">Real-time geolocation tracking</td>
+              <td>Visibility disappears the moment product leaves your own four walls</td>
+              <td class="cell-smart">Full visibility from plant to consumer, not just to your own warehouse door.</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700;">GS1 EPCIS 2.0 native data model</td>
+              <td>Data is trapped in a proprietary format that can't be shared with partners or regulators</td>
+              <td class="cell-smart">Standards-compliant data exchange on demand, no custom integration project needed each time.</td>
+            </tr>
+            <tr>
+              <td style="font-weight: 700;">Automated chain-of-custody trail</td>
+              <td>Reconstructing a shipment's history for a legal or regulatory request takes weeks</td>
+              <td class="cell-smart">Full history available in minutes, without a cross-functional fire drill.</td>
+            </tr>
+          </tbody>
+        </table>
         
-        <div class="bento-slider">
-          <!-- Card 1 -->
-          <div class="bento-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.05">
-            <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-box"/></svg></div>
-            <h3 class="bento-title">Unit-level serialization at source</h3>
-            <p class="bento-desc">No way to trace a specific unit back to its exact production batch, line, or shift.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Recalls narrow to the exact affected batch, cutting recall cost and scope dramatically.</div>
-          </div>
-          
-          <!-- Card 2 -->
-          <div class="bento-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.05">
-            <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-check"/></svg></div>
-            <h3 class="bento-title">Dispatch/receipt confirmation at every stage</h3>
-            <p class="bento-desc">"Shipped" and "received" are assumed to match, but it's rarely proven.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Disputed shipments and stuck working capital drop, because custody is proven, not assumed.</div>
-          </div>
-          
-          <!-- Card 3 -->
-          <div class="bento-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.05">
-            <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-map"/></svg></div>
-            <h3 class="bento-title">Real-time geolocation tracking</h3>
-            <p class="bento-desc">Visibility disappears the moment product leaves your own four walls.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Full visibility from plant to consumer, not just to your own warehouse door.</div>
-          </div>
-
-          <!-- Card 4 -->
-          <div class="bento-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.05">
-            <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-database"/></svg></div>
-            <h3 class="bento-title">GS1 EPCIS 2.0 native data model</h3>
-            <p class="bento-desc">Data is trapped in a proprietary format that can't be shared with partners or regulators.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Standards-compliant data exchange on demand, no custom integration project needed each time.</div>
-          </div>
-
-          <!-- Card 5 -->
-          <div class="bento-card" data-tilt data-tilt-max="3" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.05">
-            <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-report"/></svg></div>
-            <h3 class="bento-title">Automated chain-of-custody trail</h3>
-            <p class="bento-desc">Reconstructing a shipment's history for a legal or regulatory request takes weeks.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Full history available in minutes, without a cross-functional fire drill.</div>
-          </div>
-        </div>
-        <div style="text-align: center; margin-top: 2rem;">
-          <a href="#" class="btn btn-primary" style="padding: 14px 28px; margin-top: 1rem; display: inline-flex; align-items: center; gap: 8px;">See the full technical capability breakdown <svg class="icon" width="16" height="16"><use href="#icon-arrow-right"/></svg></a>
+        <div style="text-align: center; margin-top: 3rem;">
+          <span data-magnetic style="display: inline-block;"><a href="#" class="btn btn-primary" style="padding: 14px 28px; display: inline-flex; align-items: center; gap: 8px;">See the full technical capability breakdown <svg class="icon" width="16" height="16" aria-hidden="true"><use href="#icon-arrow-right"/></svg></a></span>
         </div>
       </div>
     </section>
@@ -1511,62 +1507,39 @@
          SECTION 9: SOCIAL PROOF / TESTIMONIAL
          Layout: Homepage slider
          ============================================ -->
-  <!-- VOICES -->
-  <section class="stage stage--voices" id="voices" aria-labelledby="voices-title" style="background: #f7f7fa;">
-    <div class="stage__inner">
-      <header class="voices-head" style="max-width: 800px; text-align: left; margin-bottom: 3rem;" data-reveal>
-        <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">Proof</p>
-        <h2 id="voices-title" style="font-size: clamp(2.25rem, 5vw, 3.25rem); line-height: 1.1; margin: 0 0 1rem; color: #111111;">Don't just take our word for it.</h2>
-      </header>
-
-      <div
-        class="voices-slider"
-        data-voices-slider
-        data-voices-visible="1"
-        data-reveal
-        role="region"
-        aria-roledescription="carousel"
-        aria-label="Customer testimonials"
-      >
-        <div class="voices-slider__viewport">
-          <div class="voices-slider__track" aria-live="polite" aria-atomic="true">
-            <blockquote
-              class="voice is-active"
-              style="--voice-accent: #8fb0ff; background: transparent; flex: 0 0 100%;"
-              role="group"
-              aria-roledescription="slide"
-              aria-label="1 of 1"
-              data-voice-slide
-            >
-              <span class="voice__mark" aria-hidden="true">&ldquo;</span>
-              <p class="voice__quote" style="color:#111111;">We used to spend two weeks prepping for an audit. With Smart Epsilon, we run a report in five minutes. It's fundamentally changed our operations.</p>
-              <footer class="voice__meta">
-                <cite class="voice__name" style="color:#111111;">VP of Operations</cite>
-                <span class="voice__role">Global Manufacturer</span>
-              </footer>
-            </blockquote>
+  <!-- ============================================
+       SECTION 9: PROOF
+       Layout: Static 2-column block (Quote + Stat)
+       ============================================ -->
+  <section class="stage stage--voices" id="voices" aria-labelledby="voices-title" style="background: #f7f7fa; padding: 120px 0;">
+    <style>
+      .proof-grid { display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 4rem; align-items: center; }
+      @media (max-width: 900px) {
+        .proof-grid { grid-template-columns: 1fr; gap: 3rem; }
+      }
+    </style>
+    <div class="stage__inner" style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+      <div class="proof-grid">
+        
+        <!-- Left: Quote -->
+        <div style="position: relative; padding-left: 2rem;">
+          <span style="position: absolute; top: -30px; left: -10px; font-size: 6rem; color: rgba(104, 98, 167, 0.15); font-family: Georgia, serif; line-height: 1;" aria-hidden="true">"</span>
+          <p style="font-size: clamp(1.5rem, 3vw, 2.125rem); font-weight: 700; color: #111111; line-height: 1.35; margin-bottom: 2rem; position: relative; z-index: 1;">
+            Smart Epsilon's anti-counterfeiting solution cut counterfeit-driven complaints sharply in our first two quarters. Our field team now spots clones before customers do.
+          </p>
+          <div style="border-left: 3px solid #6862a7; padding-left: 1rem;">
+            <p style="font-size: 1.1rem; font-weight: 800; color: #111111; margin: 0 0 0.25rem;">Head of Brand Protection</p>
+            <p style="font-size: 0.95rem; color: rgba(0,0,0,0.6); margin: 0;">Agrochemicals major</p>
           </div>
         </div>
 
-        <div class="voices-slider__controls">
-          <button type="button" class="voices-slider__arrow" data-voice-prev aria-label="Previous testimonials" style="color: #111111; border-color: rgba(0,0,0,0.1);">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-              <path d="M11.5 3.5L6 9l5.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
-
-          <div class="voices-slider__dots" role="tablist" aria-label="Choose testimonial pair" data-voice-dots></div>
-
-          <button type="button" class="voices-slider__arrow" data-voice-next aria-label="Next testimonials" style="color: #111111; border-color: rgba(0,0,0,0.1);">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-              <path d="M6.5 3.5L12 9l-5.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
+        <!-- Right: Stat -->
+        <div data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-perspective="1000" style="background: #ffffff; border: 1px solid rgba(0,0,0,0.06); border-radius: 24px; padding: 3rem; text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.04); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+          <div style="font-size: clamp(3.5rem, 5vw, 5rem); font-weight: 800; color: #6862a7; line-height: 1; margin-bottom: 1rem; letter-spacing: -0.02em;">99.2%</div>
+          <p style="font-size: 1.125rem; font-weight: 700; color: #111111; margin-bottom: 1rem;">verified authentic across the network</p>
+          <p style="font-size: 0.85rem; color: rgba(0,0,0,0.5); margin: 0; line-height: 1.5;">Aggregated client data, 2023–2026.<br>Full methodology available on request.</p>
         </div>
 
-        <div class="voices-slider__progress" aria-hidden="true">
-          <span class="voices-slider__progress-bar" data-voice-progress></span>
-        </div>
       </div>
     </div>
   </section>
@@ -1585,41 +1558,31 @@
         <div class="faq-list">
           <div class="faq-item" data-faq>
             <button class="faq-trigger" aria-expanded="false">
-              <div class="faq-trigger-q">Does this replace our WMS?</div>
+              <div class="faq-trigger-q">Does this slow down our production line?</div>
               <div class="faq-trigger-dot"></div>
             </button>
             <div class="faq-answer" role="region">
-              <div class="faq-answer-inner">No. It pulls data from it and adds the missing identity layer to give you full visibility.</div>
+              <div class="faq-answer-inner">No. Activation happens at the point the product is already being packaged; it adds an identity, not a step.</div>
             </div>
           </div>
 
           <div class="faq-item" data-faq>
             <button class="faq-trigger" aria-expanded="false">
-              <div class="faq-trigger-q">Do we need to install new scanners?</div>
+              <div class="faq-trigger-q">We already have an ERP. Why do we need this too?</div>
               <div class="faq-trigger-dot"></div>
             </button>
             <div class="faq-answer" role="region">
-              <div class="faq-answer-inner">No. We integrate directly with the Zebra, Honeywell, or Datalogic devices your team already uses.</div>
+              <div class="faq-answer-inner">Your ERP tracks inventory counts. This tracks the identity of each physical unit. Different data, different purpose, and it feeds your ERP rather than replacing it.</div>
             </div>
           </div>
 
           <div class="faq-item" data-faq>
             <button class="faq-trigger" aria-expanded="false">
-              <div class="faq-trigger-q">How does this handle external partners?</div>
+              <div class="faq-trigger-q">What happens to visibility once product leaves our own warehouse?</div>
               <div class="faq-trigger-dot"></div>
             </button>
             <div class="faq-answer" role="region">
-              <div class="faq-answer-inner">GS1 EPCIS 2.0 standards mean you can share data seamlessly, securely, and selectively with any authorized partner.</div>
-            </div>
-          </div>
-
-          <div class="faq-item" data-faq>
-            <button class="faq-trigger" aria-expanded="false">
-              <div class="faq-trigger-q">What happens if a shipment goes offline?</div>
-              <div class="faq-trigger-dot"></div>
-            </button>
-            <div class="faq-answer" role="region">
-              <div class="faq-answer-inner">Data is cached locally and syncs automatically the moment the device reconnects.</div>
+              <div class="faq-answer-inner">That’s the point where most systems go dark. This is exactly where Track & Trace keeps working, through distributor and retailer, to the final scan.</div>
             </div>
           </div>
         </div>
@@ -1634,10 +1597,10 @@
     <div class="cta-shell">
       <header class="cta-intro" data-reveal>
         <p class="eyebrow">Book a demo</p>
-        <h2 class="cta-intro__title">
-          See your supply chain.<br />Actually see it.
+        <h2 class="cta-intro__title" style="margin-bottom: 2rem;">
+          Want to see how Track & Trace works? We'll walk you through the full cycle.
         </h2>
-        <p class="cta-intro__lede">Book a 30-minute session to see how Smart Epsilon tracks your exact SKUs.</p>
+        <span data-magnetic style="display: inline-block;"><a class="btn btn-primary" href="#">Schedule a Demo <svg class="icon" width="16" height="16" aria-hidden="true"><use href="#icon-arrow-right"/></svg></a></span>
       </header>
 
       <div class="cta-board" data-reveal>
