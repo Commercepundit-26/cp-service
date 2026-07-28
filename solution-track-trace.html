@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anti-Counterfeiting Solution | Smart Epsilon</title>
+  <title>Track & Trace Solution | Smart Epsilon</title>
   <meta name="description" content="Protect every unit with overt, covert, and forensic verification working together. Give counterfeiters three problems, not one.">
   <link rel="icon" href="assets/logo-D0kBFmz2.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css" />
@@ -502,7 +502,7 @@
 }
 .bento-impact {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   font-size: 13px;
   font-weight: 700;
@@ -1020,8 +1020,10 @@
       <div class="internal-hero-content">
         <div class="stage__inner container">
           <div style="text-align: center; max-width: 900px; margin: 0 auto;">
-            <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">TRACK & TRACE</p>
-            <h1 class="page-title" style="color: #ffffff; font-size: clamp(2.4rem, 4.5vw, 3.8rem); line-height: 1.15; font-weight: 800; margin-bottom: 1.25rem;">Know where every unit is, without asking anyone.</h1>
+            <h1 class="page-title" style="color: #ffffff; font-size: clamp(2.4rem, 4.5vw, 3.8rem); line-height: 1.15; font-weight: 800; margin-bottom: 1.25rem;">
+              <span style="color: #ffffff;">Know where every unit is, </span>
+              <span style="background: linear-gradient(90deg, #6862a7, #8fb0ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">without asking anyone.</span>
+            </h1>
             <p class="hero-lede" style="color: rgba(255, 255, 255, 0.8); font-size: 1.125rem; line-height: 1.6; margin-bottom: 2rem;">One identity, created at the plant, follows every unit through every stage, so &ldquo;where&rsquo;s my stock&rdquo; stops being a question your team has to chase down.</p>
 
             <div class="trust-chips-row" style="margin-bottom: 2.5rem; justify-content: center;">
@@ -1055,7 +1057,7 @@
         <div class="quote-item" data-quote>
           <div class="quote-item__num">01</div>
           <div class="quote-item__body">
-            <div class="quote-item__q">"A defect just surfaced in one batch. How much of your inventory do you have to recall?"</div>
+            <div class="quote-item__q">A defect just surfaced in one batch. How much of your inventory do you have to recall?</div>
             <div class="quote-item__answer">Without unit-level precision, one bad batch forces a blanket recall across the entire product line, at a cost that scales into millions, not thousands.</div>
           </div>
           <div class="quote-item-bar"></div>
@@ -1064,7 +1066,7 @@
         <div class="quote-item" data-quote>
           <div class="quote-item__num">02</div>
           <div class="quote-item__body">
-            <div class="quote-item__q">"Legal needs proof of custody from eight months ago. A regulator wants it right now."</div>
+            <div class="quote-item__q">Legal needs proof of custody from eight months ago. A regulator wants it right now.</div>
             <div class="quote-item__answer">Reconstructing that history across disconnected systems takes weeks, and a regulator won't wait: the delay alone can suspend a license or block a shipment.</div>
           </div>
           <div class="quote-item-bar"></div>
@@ -1073,7 +1075,7 @@
         <div class="quote-item" data-quote>
           <div class="quote-item__num">03</div>
           <div class="quote-item__body">
-            <div class="quote-item__q">"Finance can't close the books because $2M in inventory is stuck in unresolved distributor disputes."</div>
+            <div class="quote-item__q">Finance can't close the books because $2M in inventory is stuck in unresolved distributor disputes.</div>
             <div class="quote-item__answer">When "shipped" and "received" can't be proven to match, disputed shipments sit unresolved for months, tying up real working capital.</div>
           </div>
           <div class="quote-item-bar"></div>
@@ -1082,7 +1084,7 @@
         <div class="quote-item" data-quote>
           <div class="quote-item__num">04</div>
           <div class="quote-item__body">
-            <div class="quote-item__q">"One warehouse is sitting on six months of overstock while another can't keep a single SKU in stock."</div>
+            <div class="quote-item__q">One warehouse is sitting on six months of overstock while another can't keep a single SKU in stock.</div>
             <div class="quote-item__answer">Without visibility into what's actually moving, overstock and understock pile up in the same network at the same time.</div>
           </div>
           <div class="quote-item-bar"></div>
@@ -1091,7 +1093,7 @@
         <div class="quote-item" data-quote>
           <div class="quote-item__num">05</div>
           <div class="quote-item__body">
-            <div class="quote-item__q">"Nobody can say which SKUs are fast-moving, slow-moving, or already dead stock until the write-off shows up."</div>
+            <div class="quote-item__q">Nobody can say which SKUs are fast-moving, slow-moving, or already dead stock until the write-off shows up.</div>
             <div class="quote-item__answer">Shipment data shows what left the plant, not what's moving off the shelf, so all three look identical until the capital's already lost.</div>
           </div>
           <div class="quote-item-bar"></div>
@@ -1114,7 +1116,7 @@
         <div class="sticky-tabs-nav">
           <button class="sticky-tab-btn is-active" data-stab="tab-plant" id="stab-plant" aria-controls="panel-plant" aria-selected="true">
             <div class="stb-icon">
-              <svg class="icon" width="20" height="20"><use href="#icon-shield"/></svg>
+              <svg class="icon" width="20" height="20"><use href="#icon-box"/></svg>
             </div>
             <div class="stb-text">
               <span class="stb-layer">Stage 1</span>
@@ -1132,7 +1134,7 @@
           </button>
           <button class="sticky-tab-btn" data-stab="tab-distributor" id="stab-distributor" aria-controls="panel-distributor" aria-selected="false">
             <div class="stb-icon">
-              <svg class="icon" width="20" height="20"><use href="#icon-fingerprint"/></svg>
+              <svg class="icon" width="20" height="20"><use href="#icon-truck"/></svg>
             </div>
             <div class="stb-text">
               <span class="stb-layer">Stage 3</span>
@@ -1141,7 +1143,7 @@
           </button>
           <button class="sticky-tab-btn" data-stab="tab-retailer" id="stab-retailer" aria-controls="panel-retailer" aria-selected="false">
             <div class="stb-icon">
-              <svg class="icon" width="20" height="20"><use href="#icon-fingerprint"/></svg>
+              <svg class="icon" width="20" height="20"><use href="#icon-users"/></svg>
             </div>
             <div class="stb-text">
               <span class="stb-layer">Stage 4</span>
@@ -1150,7 +1152,7 @@
           </button>
           <button class="sticky-tab-btn" data-stab="tab-consumer" id="stab-consumer" aria-controls="panel-consumer" aria-selected="false">
             <div class="stb-icon">
-              <svg class="icon" width="20" height="20"><use href="#icon-fingerprint"/></svg>
+              <svg class="icon" width="20" height="20"><use href="#icon-search"/></svg>
             </div>
             <div class="stb-text">
               <span class="stb-layer">Stage 5</span>
@@ -1271,17 +1273,17 @@
           <div class="features-overlay-box" style="background: #ffffff; border-radius: 24px; padding: 2.2rem 2.5rem; width: 92%; max-width: 800px; margin: -60px auto 0; position: relative; z-index: 10; box-shadow: 0 20px 50px rgba(11, 10, 26, 0.12); border: 1px solid rgba(17, 28, 46, 0.06); text-align: center;">
             
             <div class="features-slide-content is-active" data-stake-content="0">
-              <h3 style="font-size: 1.25rem; font-weight: 800; color: #111111; margin-bottom: 0.5rem;">"Can we finally stop reconciling five reports to answer one question?"</h3>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: #111111; margin-bottom: 0.5rem;">Can we finally stop reconciling five reports to answer one question?</h3>
               <p style="font-size: 1rem; line-height: 1.6; color: rgba(0,0,0,0.6); font-weight: 500; margin-bottom: 0;">One live view, plant to consumer. It's the same number no matter which system someone normally lives in.</p>
             </div>
 
             <div class="features-slide-content" data-stake-content="1">
-              <h3 style="font-size: 1.25rem; font-weight: 800; color: #111111; margin-bottom: 0.5rem;">"Will this slow down our line?"</h3>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: #111111; margin-bottom: 0.5rem;">Will this slow down our line?</h3>
               <p style="font-size: 1rem; line-height: 1.6; color: rgba(0,0,0,0.6); font-weight: 500; margin-bottom: 0;">No. Activation happens at the point the product is already being packaged. It adds an identity, not a step.</p>
             </div>
 
             <div class="features-slide-content" data-stake-content="2">
-              <h3 style="font-size: 1.25rem; font-weight: 800; color: #111111; margin-bottom: 0.5rem;">"If we're audited, can we produce this in minutes, not weeks?"</h3>
+              <h3 style="font-size: 1.25rem; font-weight: 800; color: #111111; margin-bottom: 0.5rem;">If we're audited, can we produce this in minutes, not weeks?</h3>
               <p style="font-size: 1rem; line-height: 1.6; color: rgba(0,0,0,0.6); font-weight: 500; margin-bottom: 0;">Every unit carries a defensible, timestamped record. It's audit-ready without a special request or a war room.</p>
             </div>
 
@@ -1307,7 +1309,7 @@
             <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-box"/></svg></div>
             <h3 class="bento-title">Unit-level serialization at source</h3>
             <p class="bento-desc">No way to trace a specific unit back to its exact production batch, line, or shift.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16"><use href="#icon-check"/></svg> Recalls narrow to the exact affected batch, cutting recall cost and scope dramatically.</div>
+            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Recalls narrow to the exact affected batch, cutting recall cost and scope dramatically.</div>
           </div>
           
           <!-- Card 2 -->
@@ -1315,7 +1317,7 @@
             <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-check"/></svg></div>
             <h3 class="bento-title">Dispatch/receipt confirmation at every stage</h3>
             <p class="bento-desc">"Shipped" and "received" are assumed to match, but it's rarely proven.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16"><use href="#icon-check"/></svg> Disputed shipments and stuck working capital drop, because custody is proven, not assumed.</div>
+            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Disputed shipments and stuck working capital drop, because custody is proven, not assumed.</div>
           </div>
           
           <!-- Card 3 -->
@@ -1323,7 +1325,7 @@
             <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-map"/></svg></div>
             <h3 class="bento-title">Real-time geolocation tracking</h3>
             <p class="bento-desc">Visibility disappears the moment product leaves your own four walls.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16"><use href="#icon-check"/></svg> Full visibility from plant to consumer, not just to your own warehouse door.</div>
+            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Full visibility from plant to consumer, not just to your own warehouse door.</div>
           </div>
 
           <!-- Card 4 -->
@@ -1331,7 +1333,7 @@
             <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-database"/></svg></div>
             <h3 class="bento-title">GS1 EPCIS 2.0 native data model</h3>
             <p class="bento-desc">Data is trapped in a proprietary format that can't be shared with partners or regulators.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16"><use href="#icon-check"/></svg> Standards-compliant data exchange on demand, no custom integration project needed each time.</div>
+            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Standards-compliant data exchange on demand, no custom integration project needed each time.</div>
           </div>
 
           <!-- Card 5 -->
@@ -1339,11 +1341,11 @@
             <div class="bento-icon"><svg class="icon" width="24" height="24"><use href="#icon-report"/></svg></div>
             <h3 class="bento-title">Automated chain-of-custody trail</h3>
             <p class="bento-desc">Reconstructing a shipment's history for a legal or regulatory request takes weeks.</p>
-            <div class="bento-impact"><svg class="icon" width="16" height="16"><use href="#icon-check"/></svg> Full history available in minutes, without a cross-functional fire drill.</div>
+            <div class="bento-impact"><svg class="icon" width="16" height="16" style="flex-shrink:0; margin-top:1px;"><use href="#icon-check"/></svg> Full history available in minutes, without a cross-functional fire drill.</div>
           </div>
         </div>
         <div style="text-align: center; margin-top: 2rem;">
-          <a href="#" style="color: #6862a7; text-decoration: underline; font-weight: 600;">See the full technical capability breakdown &rarr;</a>
+          <a href="#" class="btn btn-primary" style="padding: 14px 28px; margin-top: 1rem; display: inline-flex; align-items: center; gap: 8px;">See the full technical capability breakdown <svg class="icon" width="16" height="16"><use href="#icon-arrow-right"/></svg></a>
         </div>
       </div>
     </section>
@@ -1354,8 +1356,8 @@
     <section class="integration-section">
       <div class="integration-inner">
         <div class="integration-header">
-          <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">Fits the stack you already run</p>
-          <h2>No rip-and-replace required.</h2>
+          <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">Integrations</p>
+          <h2>Fits the Stack You Already Run</h2>
           <p>We built Smart Epsilon to plug into the systems your production lines and warehouses already depend on.</p>
         </div>
 
@@ -1441,9 +1443,9 @@
     <section class="vstep-section">
       <div class="vstep-inner">
         <div class="vstep-header">
-          <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">One rollout process</p>
-          <h2>Live in ~6 weeks, not 6 months.</h2>
-          <p>Enterprise software shouldn't mean endless consulting hours. We deploy on a rigid, proven timeline.</p>
+          <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">Deployment</p>
+          <h2>One Rollout Process, Sized to What You're Deploying</h2>
+          <p>A single line on one SKU moves fast. A multi-site, multi-ERP rollout takes longer. The sequence below is what stays constant either way. It's how we scope the real timeline with you, instead of quoting one before we've seen your stack.</p>
         </div>
 
         <div class="vstep-list">
@@ -1453,8 +1455,8 @@
             <div class="vstep-icon"><svg class="icon" width="20" height="20"><use href="#icon-search"/></svg></div>
             <div class="vstep-content">
               <div class="vstep-outline-num">01</div>
-              <h3 class="vstep-title">Scope &amp; ERP Mapping</h3>
-              <p class="vstep-desc">We align your master data and define the exact points of data capture.</p>
+              <h3 class="vstep-title">Discovery</h3>
+              <p class="vstep-desc">Map your current stages, systems, and data gaps. This is what actually sets the timeline.</p>
             </div>
           </div>
           
@@ -1462,17 +1464,44 @@
             <div class="vstep-icon"><svg class="icon" width="20" height="20"><use href="#icon-database"/></svg></div>
             <div class="vstep-content">
               <div class="vstep-outline-num">02</div>
-              <h3 class="vstep-title">System Integration &amp; Test</h3>
-              <p class="vstep-desc">APIs connect your existing systems without disrupting current workflows.</p>
+              <h3 class="vstep-title">Scoping</h3>
+              <p class="vstep-desc">Agree on the lines, SKUs, and integration points, and set a realistic date, in writing.</p>
             </div>
           </div>
           
           <div class="vstep-item">
-            <div class="vstep-icon"><svg class="icon" width="20" height="20"><use href="#icon-users"/></svg></div>
+            <div class="vstep-icon"><svg class="icon" width="20" height="20"><use href="#icon-box"/></svg></div>
             <div class="vstep-content">
               <div class="vstep-outline-num">03</div>
-              <h3 class="vstep-title">Field Training &amp; Go-Live</h3>
-              <p class="vstep-desc">Your team starts capturing data with the devices they already use.</p>
+              <h3 class="vstep-title">POC</h3>
+              <p class="vstep-desc">Prove the model end-to-end on one line before committing further.</p>
+            </div>
+          </div>
+
+          <div class="vstep-item">
+            <div class="vstep-icon"><svg class="icon" width="20" height="20"><use href="#icon-route"/></svg></div>
+            <div class="vstep-content">
+              <div class="vstep-outline-num">04</div>
+              <h3 class="vstep-title">Pilot Batch</h3>
+              <p class="vstep-desc">Run a real batch through the full five-stage journey.</p>
+            </div>
+          </div>
+
+          <div class="vstep-item">
+            <div class="vstep-icon"><svg class="icon" width="20" height="20"><use href="#icon-users"/></svg></div>
+            <div class="vstep-content">
+              <div class="vstep-outline-num">05</div>
+              <h3 class="vstep-title">Team Training</h3>
+              <p class="vstep-desc">Get plant, warehouse, and field teams trained and confident on the new workflow.</p>
+            </div>
+          </div>
+
+          <div class="vstep-item">
+            <div class="vstep-icon"><svg class="icon" width="20" height="20"><use href="#icon-trend"/></svg></div>
+            <div class="vstep-content">
+              <div class="vstep-outline-num">06</div>
+              <h3 class="vstep-title">Complete Rollout</h3>
+              <p class="vstep-desc">Scale across remaining lines, sites, and partners at your pace.</p>
             </div>
           </div>
         </div>
