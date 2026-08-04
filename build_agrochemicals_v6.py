@@ -2,10 +2,8 @@ import re
 from bs4 import BeautifulSoup
 
 # Load pristine solution page
-with open('/Users/cp/Ronak/CP/CP Website/servicepages/solution-anti-counterfeiting.html', 'r', encoding='utf-8') as f:
-    html = f.read()
-
-soup = BeautifulSoup(html, 'html.parser')
+with open('/Users/cp/Ronak/CP/CP Website/Old/smart-epsilon-redesign/solution-anti-counterfeiting.html', 'r', encoding='utf-8') as f:
+    soup = BeautifulSoup(f.read(), 'html.parser')
 
 # Update title and meta
 title_tag = soup.find('title')
@@ -22,7 +20,9 @@ if hero_section:
     eyebrow = hero_section.find('p', class_='eyebrow')
     if not eyebrow:
         eyebrow = soup.new_tag('p', attrs={'class': 'eyebrow', 'style': 'color: #ffffff; margin-bottom: 1rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;'})
-        hero_section.find('.internal-hero-content').insert(0, eyebrow)
+        internal_content = hero_section.find(class_='internal-hero-content')
+        if internal_content:
+            internal_content.insert(0, eyebrow)
     eyebrow.string = 'AGROCHEMICALS'
     
     h1 = hero_section.find('h1')
@@ -835,16 +835,36 @@ if qw:
     qw.insert_after(BeautifulSoup(middle_html, 'html.parser'))
     qw.decompose()
 
-# Update Voices
+# Update Voices -> Case Study
 voices_section = soup.find('section', id='voices')
 if voices_section:
-    t_quote = voices_section.find('p', class_='testimonial-quote')
-    t_author = voices_section.find('div', class_='testimonial-author')
-    t_role = voices_section.find('div', class_='testimonial-role')
-    
-    if t_quote: t_quote.string = '"Smart Epsilon anti-counterfeiting solution cut counterfeit-driven complaints sharply in our first two quarters. Our field team now spots clones before customers do."'
-    if t_author: t_author.string = "Head of Brand Protection"
-    if t_role: t_role.string = "Agrochemicals major. World's largest agrochemical company — End-to-end visibility across 10+ countries with unit-level serialization at scale."
+    voices_section.clear()
+    voices_section['style'] = 'background: #ffffff; padding: 120px 0; border-top: 1px solid rgba(0,0,0,0.08); border-bottom: 1px solid rgba(0,0,0,0.08);'
+    case_study_html = """
+    <div class="agro-container">
+        <div class="agro-header">
+            <p class="eyebrow" style="color: #6862a7; margin-bottom: 0.75rem; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase;">Case Study</p>
+            <h2>The Challenge</h2>
+        </div>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <p style="font-size: 1.125rem; color: var(--agro-text); line-height: 1.6; margin-bottom: 1.5rem;">Operating across 100+ countries, this agrochemical manufacturer had already built a world-class production and distribution network. But the moment product left the factory, visibility started to fade.</p>
+            <blockquote style="font-size: 1.25rem; font-style: italic; color: var(--agro-dark); border-left: 4px solid var(--agro-primary); padding-left: 1.5rem; margin: 2rem 0;">“Secondary sales relied on delayed reporting. Retail movement stayed fragmented. Commercial planning leaned on assumptions instead of verified product movement.”</blockquote>
+            <p style="font-size: 1.125rem; color: var(--agro-text); line-height: 1.6; margin-bottom: 1.5rem;">Leadership wanted more than operational tidiness. They wanted a straight answer to one question:</p>
+            <blockquote style="font-size: 1.25rem; font-style: italic; color: var(--agro-dark); border-left: 4px solid var(--agro-primary); padding-left: 1.5rem; margin: 2rem 0;">“Where is every product, and what’s happening to it across the entire channel?”</blockquote>
+            <p style="font-size: 1.125rem; color: var(--agro-text); line-height: 1.6; margin-bottom: 1.5rem;">Without that answer, the business couldn’t:</p>
+            <ul style="font-size: 1.125rem; color: var(--agro-text); line-height: 1.6; list-style: none; padding: 0; margin: 0 0 3rem 0; display: flex; flex-direction: column; gap: 12px;">
+                <li style="position: relative; padding-left: 24px;"><span style="position: absolute; left: 0; color: var(--agro-primary);">•</span> See secondary sales and liquidation in anything close to real time</li>
+                <li style="position: relative; padding-left: 24px;"><span style="position: absolute; left: 0; color: var(--agro-primary);">•</span> Understand what was actually happening at the retailer level</li>
+                <li style="position: relative; padding-left: 24px;"><span style="position: absolute; left: 0; color: var(--agro-primary);">•</span> Forecast demand from real channel activity instead of shipment estimates</li>
+                <li style="position: relative; padding-left: 24px;"><span style="position: absolute; left: 0; color: var(--agro-primary);">•</span> Build a complete history for a single serialized product</li>
+                <li style="position: relative; padding-left: 24px;"><span style="position: absolute; left: 0; color: var(--agro-primary);">•</span> Make a fast commercial call with any real confidence behind it</li>
+            </ul>
+            <h3 style="font-size: 1.75rem; font-weight: 800; color: var(--agro-dark); margin-bottom: 1.5rem;">What We Deployed</h3>
+            <p style="font-size: 1.125rem; color: var(--agro-text); line-height: 1.6; margin-bottom: 3rem;">Every product was given a unique digital identity at the point of manufacturing. From there, six connected capabilities carried that identity through the entire commercial lifecycle, an unbroken thread from Identity to Loyalty.</p>
+        </div>
+    </div>
+    """
+    voices_section.append(BeautifulSoup(case_study_html, 'html.parser'))
 
 # Update FAQ
 faq_section = soup.find('section', class_='faq-section')
@@ -885,15 +905,15 @@ if cta_section:
     if cta_intro:
         cta_intro['style'] = 'font-size: 250%; max-width: none;'
         cta_intro.clear()
-        cta_intro.append(BeautifulSoup("See how Smart Epsilon protects your formulation,<br/>your dealer network, and the growers who trust your label.", 'html.parser'))
+        cta_intro.append(BeautifulSoup("See what end-to-end visibility could look like across your own supply chain.", 'html.parser'))
         # Add the requested CTA button after the text
-        btn_html = '<div style="margin-top: 30px;"><a class="btn btn-primary" href="#contact">Schedule an Agrochemicals Demo <svg class="icon" width="16" height="16"><use href="#icon-arrow-right"/></svg></a></div>'
+        btn_html = '<div style="margin-top: 30px;"><a class="btn btn-primary" href="#contact">Schedule a Demo <svg class="icon" width="16" height="16"><use href="#icon-arrow-right"/></svg></a></div>'
         cta_intro.insert_after(BeautifulSoup(btn_html, 'html.parser'))
         
     if cta_lede: cta_lede.string = ""
 
-# Write to industry-template.html
-with open('/Users/cp/Ronak/CP/CP Website/servicepages/industry-template.html', 'w', encoding='utf-8') as f:
+# Write to agrochemicals-smart-epsilon.html
+with open('/Users/cp/Ronak/CP/CP Website/services_cp/agrochemicals-smart-epsilon.html', 'w', encoding='utf-8') as f:
     f.write(str(soup))
 
 print("Redesign HTML correctly written.")
