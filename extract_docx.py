@@ -7,6 +7,7 @@ def parse_docx(filepath):
     lines = [p.text.strip() for p in doc.paragraphs if p.text.strip()]
     
     data = {
+        "meta": {"title": "", "description": ""},
         "hero": {},
         "stats": [],
         "what_is": {},
@@ -21,37 +22,45 @@ def parse_docx(filepath):
     current_section = None
     
     for i, line in enumerate(lines):
-        if line.startswith("SECTION 1: Hero Banner"):
+        if line.startswith("Meta Title:"):
+            data["meta"]["title"] = line.split("Meta Title:")[1].strip()
+            continue
+        elif line.startswith("Meta Description:"):
+            data["meta"]["description"] = line.split("Meta Description:")[1].strip()
+            continue
+        elif line.startswith("SECTION 1: Hero"):
             current_section = "hero"
             continue
         elif line.startswith("SECTION 2: Stats"):
             current_section = "stats"
             continue
-        elif line.startswith("SECTION 4: What Is"):
+        elif line.startswith("SECTION 4: What Is") or line.startswith("SECTION 4: What are") or line.startswith("SECTION 3: What"):
             current_section = "what_is"
             continue
-        elif line.startswith("SECTION 5: Services"):
+        elif line.startswith("SECTION 5: Services") or line.startswith("SECTION 4: Services"):
             current_section = "services"
             continue
-        elif line.startswith("SECTION 6: Why Choose Us"):
+        elif line.startswith("SECTION 6: Why Choose Us") or line.startswith("SECTION 5: Why Choose Us"):
             current_section = "why_choose"
             continue
-        elif line.startswith("SECTION 7: Case Studies"):
+        elif line.startswith("SECTION 7: Case Studies") or line.startswith("SECTION 6: Case Studies"):
             current_section = "case_studies"
             continue
-        elif line.startswith("SECTION 8: Process"):
+        elif line.startswith("SECTION 8: Process") or line.startswith("SECTION 7: Process"):
             current_section = "process"
             continue
-        elif line.startswith("SECTION 9: Technology Stack"):
+        elif line.startswith("SECTION 9: Technology Stack") or line.startswith("SECTION 8: Tech Stack"):
             current_section = "tech_stack"
             continue
-        elif line.startswith("SECTION 11: FAQ"):
+        elif line.startswith("SECTION 11: FAQ") or line.startswith("SECTION 10: FAQ") or line.startswith("SECTION 9: FAQ"):
             current_section = "faqs"
             continue
             
         if current_section == "hero":
             if "Headline:" in line: data["hero"]["title"] = line.split("Headline:")[1].strip()
+            elif "H1:" in line: data["hero"]["title"] = line.split("H1:")[1].strip()
             elif "Subheadline:" in line: data["hero"]["subtitle"] = line.split("Subheadline:")[1].strip()
+            elif "Subheading:" in line: data["hero"]["subtitle"] = line.split("Subheading:")[1].strip()
             elif not data["hero"].get("title") and len(line) > 20: data["hero"]["title"] = line
         
         elif current_section == "stats":
@@ -59,6 +68,9 @@ def parse_docx(filepath):
                 parts = line.lstrip("- ").split(":")
                 if len(parts) == 2:
                     data["stats"].append({"value": parts[0].strip(), "label": parts[1].strip()})
+            elif len(line.split()) > 1 and not ":" in line and line[0].isdigit():
+                # example: "600+ Projects Tested and Delivered"
+                data["stats"].append({"value": line.split()[0], "label": " ".join(line.split()[1:])})
                     
         elif current_section == "what_is":
             if not data["what_is"].get("title"):
@@ -72,10 +84,16 @@ def parse_docx(filepath):
             elif line.startswith("Service Name:"):
                 data["services"]["items"].append({"title": line.split("Service Name:")[1].strip(), "desc": ""})
             elif line.startswith("Description:"):
-                data["services"]["items"][-1]["desc"] = line.split("Description:")[1].strip()
+                if data["services"]["items"]: data["services"]["items"][-1]["desc"] = line.split("Description:")[1].strip()
             elif ":" in line and not line.startswith("Headline:"): # alternative format
                 parts = line.split(":", 1)
                 data["services"]["items"].append({"title": parts[0].strip(), "desc": parts[1].strip()})
+            else:
+                if len(line) < 100 and not line.startswith("Talk To") and not line.startswith("["):
+                    # likely a title
+                    data["services"]["items"].append({"title": line.strip(), "desc": ""})
+                elif data["services"]["items"]:
+                    data["services"]["items"][-1]["desc"] += line.strip() + " "
                 
         elif current_section == "why_choose":
             if not data["why_choose"]["title"]:
@@ -83,6 +101,11 @@ def parse_docx(filepath):
             elif ":" in line and not line.startswith("Headline:") and not line.startswith("Description:"):
                 parts = line.split(":", 1)
                 data["why_choose"]["items"].append({"title": parts[0].strip(), "desc": parts[1].strip()})
+            else:
+                if len(line) < 100 and not line.startswith("["):
+                    data["why_choose"]["items"].append({"title": line.strip(), "desc": ""})
+                elif data["why_choose"]["items"]:
+                    data["why_choose"]["items"][-1]["desc"] += line.strip() + " "
                 
         elif current_section == "case_studies":
             if not data["case_studies"]["title"]:

@@ -13,9 +13,37 @@ def map_docx_to_html(docx_path, template_path, output_path):
         
     soup = BeautifulSoup(html, 'html.parser')
     
+    # 0. Meta Tags
+    print("Mapping Meta Tags...")
+    if data.get('meta'):
+        if data['meta'].get('title'):
+            title_tag = soup.find('title')
+            if title_tag: title_tag.string = data['meta']['title']
+            og_title = soup.find('meta', property='og:title')
+            if og_title: og_title['content'] = data['meta']['title']
+            twitter_title = soup.find('meta', attrs={'name': 'twitter:title'})
+            if twitter_title: twitter_title['content'] = data['meta']['title']
+            
+        if data['meta'].get('description'):
+            desc_tag = soup.find('meta', attrs={'name': 'description'})
+            if desc_tag: desc_tag['content'] = data['meta']['description']
+            og_desc = soup.find('meta', property='og:description')
+            if og_desc: og_desc['content'] = data['meta']['description']
+            twitter_desc = soup.find('meta', attrs={'name': 'twitter:description'})
+            if twitter_desc: twitter_desc['content'] = data['meta']['description']
+    
     # 1. Hero Banner
     print("Mapping Hero Banner...")
     h1 = soup.find('h1')
+    
+    # Also replace breadcrumb
+    for p_tag in soup.find_all('p'):
+        if p_tag.string and 'Cloud & AWS Projects' in p_tag.string:
+            if data['hero'].get('title'):
+                # just use the title, but if it has "|", take the left part.
+                # Actually, data['hero']['title'] is the H1.
+                p_tag.string = data['hero']['title']
+
     if h1 and data['hero'].get('title'):
         h1.string = data['hero']['title']
     
@@ -42,7 +70,6 @@ def map_docx_to_html(docx_path, template_path, output_path):
 
     # 3. What Is (Google Ads Section)
     print("Mapping What Is...")
-    # Find the section containing the "What Is" heading
     h2s = soup.find_all('h2')
     what_is_h2 = None
     for h in h2s:
@@ -52,33 +79,20 @@ def map_docx_to_html(docx_path, template_path, output_path):
             
     if what_is_h2 and data['what_is'].get('title'):
         what_is_h2.string = data['what_is']['title']
-        # The paragraphs are usually next siblings or inside a specific container
-        content_container = what_is_h2.find_next('div', class_='ads-text')
-        if not content_container:
-            content_container = what_is_h2.find_parent('section').find('div', class_='google-ads-content')
-            if content_container:
-                content_container = content_container.find('div', class_='ads-text')
-        
-        # We will just replace paragraphs inside content_container
-        if content_container and data['what_is'].get('paragraphs'):
-            ps = content_container.find_all('p', recursive=False)
-            # clear existing paragraphs
-            for p in ps:
-                p.decompose()
-            # prepend new paragraphs before the Vibe Section (the list)
-            vibe_section = content_container.find('section', class_='vibe-section')
-            for p_text in reversed(data['what_is']['paragraphs']):
-                new_p = soup.new_tag('p')
-                new_p.string = p_text
-                if vibe_section:
-                    vibe_section.insert_before(new_p)
-                else:
-                    content_container.append(new_p)
+        # In aws template, paragraph is inside ads-item
+        ads_item = what_is_h2.find_next_sibling('div', class_='ads-item')
+        if ads_item and data['what_is'].get('paragraphs'):
+            p = ads_item.find('p')
+            if p:
+                p.string = "\n\n".join(data['what_is']['paragraphs'])
+                
+        # Remove leftover vibe-section
+        vibe_section = what_is_h2.find_parent('section').find('section', class_='vibe-section')
+        if vibe_section: vibe_section.decompose()
 
     # 4. Services (AI Adoption / Cards)
     print("Mapping Services...")
-    # Find the services section by looking for ai-adoption-cards or similar grid
-    services_grid = soup.find('div', class_='ai-adoption-cards')
+    services_grid = soup.find('div', class_='ai-adoption-grid')
     if not services_grid:
         services_grid = soup.find('div', class_='vc_tta-tabs-container') # if it's WP tabs
         
@@ -89,8 +103,12 @@ def map_docx_to_html(docx_path, template_path, output_path):
             s_title = section_parent.find('h2')
             if s_title and data['services']['title']:
                 s_title.string = data['services']['title']
+            # Delete the subtitle paragraph
+            if s_title:
+                s_desc = s_title.find_next_sibling('p')
+                if s_desc: s_desc.decompose()
 
-        cards = services_grid.find_all('div', class_='ai-card')
+        cards = services_grid.find_all('div', class_='adoption-card')
         if cards:
             # We need to match the number of cards to data items
             num_data = len(data['services']['items'])
@@ -103,14 +121,13 @@ def map_docx_to_html(docx_path, template_path, output_path):
                 for c in cards[num_data:]:
                     c.decompose()
                     
-            cards = services_grid.find_all('div', class_='ai-card')
+            cards = services_grid.find_all('div', class_='adoption-card')
             for i, item in enumerate(data['services']['items']):
                 h3 = cards[i].find('h3')
                 p = cards[i].find('p')
                 if h3: h3.string = item['title']
                 if p: p.string = item['desc']
                 
-        # What if it's the WP tabs?
         elif soup.find('div', class_='vc_tta-tabs-container'):
             # This requires complex WP Bakery mapping (tabs and panels)
             tabs_container = soup.find('ul', class_='vc_tta-tabs-list')
@@ -147,28 +164,28 @@ def map_docx_to_html(docx_path, template_path, output_path):
                         p = panel_desc.find('p')
                         if p: p.string = item['desc']
 
+    # 4.5 Remove Industry Solutions Grid
+    industry_grid = soup.find('div', class_='industry-solutions-grid')
+    if industry_grid:
+        ind_parent = industry_grid.find_parent('section')
+        if ind_parent: ind_parent.decompose()
+
     # 5. Why Choose Us
     print("Mapping Why Choose Us...")
-    why_section = None
-    for h in h2s:
-        if 'Why Choose' in h.text or 'Why Businesses Choose' in h.text:
-            why_section = h.find_parent('section')
-            if why_section and data['why_choose']['title']:
-                h.string = data['why_choose']['title']
-            break
-            
-    if why_section and data['why_choose']['items']:
-        why_cards = why_section.find_all('div', class_='why-cp-feature-card')
-        if not why_cards:
-            # Maybe it uses the WP bento layout or similar
-            why_cards = why_section.find_all('div', class_='wpb_wrapper')
-            # Fallback simple logic...
+    why_h2 = soup.find('h2', class_='why-cp-heading')
+    if why_h2 and data['why_choose']['title']:
+        why_h2.string = data['why_choose']['title']
+        why_p = why_h2.find_next_sibling('p', class_='why-cp-tagline')
+        if why_p: why_p.decompose()
         
+    why_section = why_h2.find_parent('section') if why_h2 else None
+    if why_section and data['why_choose']['items']:
+        # Fix image alt
+        img = why_section.find('img')
+        if img and 'alt' in img.attrs: img['alt'] = data['why_choose']['title']
+        
+        why_cards = why_section.find_all('div', class_='solution-item')
         if why_cards:
-            num_data = len(data['why_choose']['items'])
-            num_cards = len(why_cards)
-            
-            # Since these are inside specific grid wrappers, cloning might be tricky. Let's assume the template has enough, or we just overwrite existing ones.
             for i, item in enumerate(data['why_choose']['items']):
                 if i < len(why_cards):
                     h3 = why_cards[i].find('h3')
@@ -183,7 +200,7 @@ def map_docx_to_html(docx_path, template_path, output_path):
         h2 = case_section.find('h2')
         if h2 and data['case_studies']['title']: h2.string = data['case_studies']['title']
         
-        cards = case_section.find_all('div', class_='case-card')
+        cards = case_section.find_all('div', class_='case-studies-container')
         if cards:
             num_data = len(data['case_studies']['items'])
             num_cards = len(cards)
@@ -195,35 +212,38 @@ def map_docx_to_html(docx_path, template_path, output_path):
             elif num_data < num_cards:
                 for c in cards[num_data:]: c.decompose()
                 
-            cards = case_section.find_all('div', class_='case-card')
+            cards = case_section.find_all('div', class_='case-studies-container')
             for i, item in enumerate(data['case_studies']['items']):
                 tag = cards[i].find('span', class_='tag')
                 if tag: tag.string = item['tag']
-                title = cards[i].find('h2', class_='case-title')
+                title = cards[i].find('h4')
                 if title: title.string = item['title']
                 
-                ps = cards[i].find_all('p', recursive=False)
-                if len(ps) >= 2:
-                    ps[0].string = "Challenge: " + item['challenge']
-                    ps[1].string = "Solution: " + item['solution']
+                ch_sols = cards[i].find_all('div', class_='challenge-solution')
+                if len(ch_sols) >= 2:
+                    p1 = ch_sols[0].find('p')
+                    p2 = ch_sols[1].find('p')
+                    if p1: p1.string = item['challenge']
+                    if p2: p2.string = item['solution']
                     
-                ul = cards[i].find('ul')
-                if ul:
-                    lis = ul.find_all('li')
-                    for li in lis: li.decompose()
+                rg = cards[i].find('div', class_='results-grid')
+                if rg:
+                    rg.clear()
                     for stat in item['stats']:
-                        new_li = soup.new_tag('li')
-                        new_li.string = stat
-                        ul.append(new_li)
+                        d = soup.new_tag('div')
+                        s = soup.new_tag('span')
+                        s.string = stat
+                        d.append(s)
+                        rg.append(d)
 
     # 7. Process
     print("Mapping Process...")
-    process_section = soup.find('section', class_='our-process')
+    process_section = soup.find('section', class_='transformative_section')
     if process_section and data['process']['items']:
         h2 = process_section.find('h2')
         if h2 and data['process']['title']: h2.string = data['process']['title']
         
-        steps = process_section.find_all('div', class_='step')
+        steps = process_section.find_all('div', class_='item')
         if steps:
             num_data = len(data['process']['items'])
             num_steps = len(steps)
@@ -231,17 +251,15 @@ def map_docx_to_html(docx_path, template_path, output_path):
             grid = steps[0].parent
             if num_data > num_steps:
                 for _ in range(num_data - num_steps):
-                    grid.append(copy.copy(steps[0]))
+                    grid.append(copy.copy(steps[-1]))
             elif num_data < num_steps:
                 for s in steps[num_data:]: s.decompose()
                 
-            steps = process_section.find_all('div', class_='step')
+            steps = process_section.find_all('div', class_='item')
             for i, item in enumerate(data['process']['items']):
-                num = steps[i].find('p', class_='step-number')
-                if num: num.string = f"{i+1:02d}"
-                title = steps[i].find('h3', class_='step-title')
+                title = steps[i].find('h4')
                 if title: title.string = item['title']
-                desc = steps[i].find('p', class_='sub-title')
+                desc = steps[i].find('p')
                 if desc: desc.string = item['desc']
 
     # 8. Tech Stack (Accordion)
@@ -286,10 +304,10 @@ def map_docx_to_html(docx_path, template_path, output_path):
     print("Mapping FAQs...")
     faq_section = soup.find('div', class_='services_faqs')
     if faq_section and data['faqs']['items']:
-        h2 = faq_section.find('h2')
-        if h2 and data['faqs']['title']: h2.string = data['faqs']['title']
+        h3 = faq_section.find('h3')
+        if h3 and data['faqs']['title']: h3.string = data['faqs']['title']
         
-        items = faq_section.find_all('div', class_='faq-item')
+        items = faq_section.find_all('div', class_='accordion-item')
         if items:
             num_data = len(data['faqs']['items'])
             num_items = len(items)
@@ -301,18 +319,19 @@ def map_docx_to_html(docx_path, template_path, output_path):
             elif num_data < num_items:
                 for it in items[num_data:]: it.decompose()
                 
-            items = faq_section.find_all('div', class_='faq-item')
+            items = faq_section.find_all('div', class_='accordion-item')
             for i, item in enumerate(data['faqs']['items']):
-                # FAQ title is inside h3, but has a span inside it. We need to preserve the span.
-                h3 = items[i].find('h3')
-                if h3:
-                    span = h3.find('span')
-                    h3.clear()
-                    h3.append(item['q'])
-                    if span: h3.append(span)
+                label = items[i].find('span', class_='acc-label')
+                if label:
+                    button = label.find('button')
+                    label.clear()
+                    label.append(item['q'])
+                    if button: label.append(button)
                     
-                p = items[i].find('p')
-                if p: p.string = item['a']
+                data_div = items[i].find('div', class_='accordion-data')
+                if data_div:
+                    p = data_div.find('p')
+                    if p: p.string = item['a']
 
     # Final Output
     with open(output_path, 'w', encoding='utf-8') as f:
