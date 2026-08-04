@@ -1,5 +1,8 @@
-import os
+import re
 import copy
+import glob
+import os
+import random
 from bs4 import BeautifulSoup
 from extract_docx import parse_docx
 
@@ -34,26 +37,24 @@ def map_docx_to_html(docx_path, template_path, output_path):
     
     # 1. Hero Banner
     print("Mapping Hero Banner...")
-    h1 = soup.find('h1')
-    
-    # Also replace breadcrumb
-    for p_tag in soup.find_all('p'):
-        if p_tag.string and 'Cloud & AWS Projects' in p_tag.string:
-            if data['hero'].get('title'):
-                # just use the title, but if it has "|", take the left part.
-                # Actually, data['hero']['title'] is the H1.
-                p_tag.string = data['hero']['title']
-
-    if h1 and data['hero'].get('title'):
-        h1.string = data['hero']['title']
-    
-    if h1:
-        # the subtitle is usually a <p> after h1 in the hero content block
-        hero_content = h1.find_parent('div', class_='hero-content') or h1.parent
-        p = hero_content.find('p')
-        if p and data['hero'].get('subtitle'):
-            p.string = data['hero']['subtitle']
+    if data['hero'].get('title'):
+        h1 = soup.find('h1')
+        if h1: h1.string = data['hero']['title']
+    if data['hero'].get('subtitle'):
+        h1 = soup.find('h1')
+        if h1:
+            p = h1.find_next_sibling('p')
+            if p: p.string = data['hero']['subtitle']
             
+    # Swap hero image based on title
+    if data['hero'].get('title'):
+        service_name = data['meta']['title'].split('|')[0].strip().lower().replace(' ', '-') if data.get('meta', {}).get('title') else 'service'
+        hero_img_path = f"assets/images/{service_name}-hero.jpg"
+        for img in soup.find_all('img'):
+            if img.get('src') and 'aws-hero-new' in img['src']:
+                if os.path.exists(hero_img_path):
+                    img['src'] = hero_img_path
+
     # 2. Stats
     print("Mapping Stats...")
     stat_boxes = soup.find_all('div', class_='stat-box')
@@ -121,12 +122,26 @@ def map_docx_to_html(docx_path, template_path, output_path):
                 for c in cards[num_data:]:
                     c.decompose()
                     
+            # Get lucide icons
+            lucide_icons = glob.glob('assets/images/icons/lucide/*.svg')
+            if not lucide_icons: lucide_icons = ['assets/images/icons/default.svg']
+            
             cards = services_grid.find_all('div', class_='adoption-card')
             for i, item in enumerate(data['services']['items']):
                 h3 = cards[i].find('h3')
                 p = cards[i].find('p')
                 if h3: h3.string = item['title']
                 if p: p.string = item['desc']
+                
+                # Replace icon with random lucide icon
+                icon_path = random.choice(lucide_icons)
+                img = cards[i].find('img')
+                svg = cards[i].find('svg')
+                if img:
+                    img['src'] = icon_path
+                elif svg:
+                    new_img = soup.new_tag('img', src=icon_path, width="50", height="50", alt=item['title'])
+                    svg.replace_with(new_img)
                 
         elif soup.find('div', class_='vc_tta-tabs-container'):
             # This requires complex WP Bakery mapping (tabs and panels)
@@ -186,12 +201,25 @@ def map_docx_to_html(docx_path, template_path, output_path):
         
         why_cards = why_section.find_all('div', class_='solution-item')
         if why_cards:
+            lucide_icons = glob.glob('assets/images/icons/lucide/*.svg')
+            if not lucide_icons: lucide_icons = ['assets/images/icons/default.svg']
+            
             for i, item in enumerate(data['why_choose']['items']):
                 if i < len(why_cards):
                     h3 = why_cards[i].find('h3')
                     p = why_cards[i].find('p')
                     if h3: h3.string = item['title']
                     if p: p.string = item['desc']
+                    
+                    # Replace icon
+                    icon_path = random.choice(lucide_icons)
+                    img = why_cards[i].find('img')
+                    svg = why_cards[i].find('svg')
+                    if img:
+                        img['src'] = icon_path
+                    elif svg:
+                        new_img = soup.new_tag('img', src=icon_path, width="40", height="40", alt=item['title'])
+                        svg.replace_with(new_img)
                     
     # 6. Case Studies
     print("Mapping Case Studies...")
@@ -334,6 +362,21 @@ def map_docx_to_html(docx_path, template_path, output_path):
                     if p: p.string = item['a']
 
     # Final Output
+    # Final Cleanup
+    service_name = data['meta']['title'].split('|')[0].strip() if data.get('meta', {}).get('title') else 'Service'
+    
+    # Remove all noscript tags inside cards to avoid stale AWS images
+    for card in soup.find_all(['div'], class_=['adoption-card', 'solution-item']):
+        for ns in card.find_all('noscript'):
+            ns.decompose()
+            
+    # Fix all img and svg alt attributes
+    for tag in soup.find_all(['img', 'svg']):
+        if tag.get('alt') and 'AWS' in tag['alt']:
+            tag['alt'] = tag['alt'].replace('AWS', service_name)
+        if tag.get('data-alt') and 'AWS' in tag['data-alt']:
+            tag['data-alt'] = tag['data-alt'].replace('AWS', service_name)
+
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(str(soup))
     print(f"Generated successfully: {output_path}")
