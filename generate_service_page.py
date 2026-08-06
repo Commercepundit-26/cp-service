@@ -41,7 +41,7 @@ def map_docx_to_html(docx_path, template_path, output_path):
         html = f.read()
         
     soup = BeautifulSoup(html, 'html.parser')
-    ref_icons = load_reference_icons('/Users/cp/Ronak/CP/CP Website/services_cp/reference.html')
+    ref_icons = load_reference_icons('/Users/cp/Ronak/CP/CP Website/services_cp/icons-library.html')
     
     # 0. Meta Tags
     print("Mapping Meta Tags...")
