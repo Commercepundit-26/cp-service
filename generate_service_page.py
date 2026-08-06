@@ -12,9 +12,9 @@ def load_reference_icons(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
     for tag in soup.find_all(['svg', 'img']):
-        alt = tag.get('data-alt') or tag.get('alt')
-        if alt and len(alt) > 3:
-            clean_text = set(re.findall(r'\w+', alt.lower()))
+        tags_attr = tag.get('data-tags') or tag.get('data-alt') or tag.get('alt')
+        if tags_attr and len(tags_attr) > 3:
+            clean_text = set(re.findall(r'\w+', tags_attr.lower()))
             icons.append({'tag': tag, 'text': clean_text})
     return icons
 
