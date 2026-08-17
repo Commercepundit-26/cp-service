@@ -222,6 +222,155 @@
             padding-top: 10px;
             width: 100%;
         }
+        
+        /* Color Selector & Controls */
+        .controls-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 25px;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .color-picker-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            padding: 6px 14px;
+            border-radius: 20px;
+        }
+        .color-picker-label {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-right: 4px;
+        }
+        .color-mode-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 5px 12px;
+            font-size: 12px;
+            font-weight: 700;
+            border-radius: 12px;
+            border: 1px solid transparent;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .color-mode-btn:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        .color-mode-btn.active {
+            background: var(--accent-orange);
+            color: #ffffff;
+            border-color: var(--accent-orange);
+            box-shadow: 0 2px 10px rgba(252, 118, 106, 0.35);
+        }
+        .color-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .dot-original { background: linear-gradient(135deg, #FF642D, #635BFF, #7AB55C); }
+        .dot-black { background: #000000; border: 1px solid #555; }
+        .dot-white { background: #FFFFFF; }
+
+        /* Enhanced Card Actions with Color Dropdowns */
+        .card-actions {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            opacity: 0;
+            transform: translateY(8px);
+            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: none;
+            z-index: 20;
+            padding: 0 8px;
+        }
+        .card:hover .card-actions {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+        .btn-group {
+            position: relative;
+            display: inline-flex;
+        }
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 10px;
+            font-size: 11px;
+            font-weight: 700;
+            border-radius: 12px;
+            background: #171d2b;
+            color: #ffffff;
+            border: 1px solid var(--card-border);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            outline: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        .btn-action:hover {
+            background: var(--accent-orange);
+            color: #ffffff;
+            border-color: var(--accent-orange);
+            transform: translateY(-1px);
+        }
+        .dropdown-menu {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-6px);
+            background: #121826;
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 6px;
+            display: none;
+            flex-direction: column;
+            gap: 4px;
+            min-width: 140px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+            z-index: 50;
+        }
+        .btn-group:hover .dropdown-menu {
+            display: flex;
+        }
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 10px;
+            font-size: 11px;
+            font-weight: 600;
+            color: #d1d5db;
+            border-radius: 8px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.15s ease;
+            width: 100%;
+        }
+        .dropdown-item:hover {
+            background: rgba(252, 118, 106, 0.2);
+            color: #ffffff;
+        }
+
         /* Action buttons bar on hover */
         .card-actions {
             position: absolute;
@@ -308,6 +457,23 @@
 <button class="tab-btn" data-tab="icons">Icons</button>
 <button class="tab-btn" data-tab="client-logos">Client Logos</button>
 <button class="tab-btn" data-tab="tech-logos">Tech Logos</button>
+</div>
+</div>
+<div class="controls-bar">
+<div style="font-size: 13px; color: var(--text-muted);">
+                Showing authentic brand colors by default. Choose color mode to copy or download.
+            </div>
+<div class="color-picker-group">
+<span class="color-picker-label">Color Mode:</span>
+<button class="color-mode-btn active" data-color="original">
+<span class="color-dot dot-original"></span> Original
+                </button>
+<button class="color-mode-btn" data-color="black">
+<span class="color-dot dot-black"></span> Black (#000000)
+                </button>
+<button class="color-mode-btn" data-color="white">
+<span class="color-dot dot-white"></span> White (#FFFFFF)
+                </button>
 </div>
 </div>
 <div class="grid" id="icon-grid">
@@ -43548,6 +43714,16 @@
 <div class="tags">
 <strong>Tags:</strong><br/>zendesk • customer support • helpdesk • ticketing • crm • tech-logos
                 </div>
+</div><div class="card" data-category="tech-logos" data-display-name="Magento (Adobe Commerce)" data-filename="magento.svg" data-name="magento" data-svg-src="assets/images/icons/magento.svg" data-tags="magento, adobe commerce, ecommerce, shop, store, platform, tech-logos" data-use-cases="Magento (Adobe Commerce) action • Magento (Adobe Commerce) status • tech-logos UI element" data-visual-desc="Magento (Adobe Commerce) vector outline icon">
+<span class="badge">Ecommerce</span>
+<div class="icon-container">
+<img alt="Magento (Adobe Commerce)" class="icon-svg" data-tags="magento, adobe commerce, ecommerce, shop, store, platform, tech-logos" loading="lazy" src="assets/images/icons/magento.svg"/>
+</div>
+<h3 class="icon-name">Magento (Adobe Commerce)</h3>
+<span class="file-name">magento.svg</span>
+<div class="tags">
+<strong>Tags:</strong><br/>magento • adobe commerce • ecommerce • shop • store • platform • tech-logos
+                </div>
 </div></div>
 </div>
 <div id="toast">Copied SVG to clipboard!</div>
@@ -43562,88 +43738,225 @@
 
         const svgCache = new Map();
 
-        async function getSvgCode(card) {
-            // ONLY select the icon inside .icon-container, NOT the copy/download button SVGs!
+        let activeColorMode = 'original';
+        const colorModeButtons = document.querySelectorAll('.color-mode-btn');
+
+        colorModeButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                colorModeButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                activeColorMode = btn.getAttribute('data-color');
+                applyColorPreview();
+            });
+        });
+
+        function applyColorPreview() {
+            cards.forEach(card => {
+                const img = card.querySelector('.icon-container img');
+                const svg = card.querySelector('.icon-container svg');
+                
+                if (img) {
+                    if (activeColorMode === 'black') {
+                        img.style.filter = 'brightness(0)';
+                    } else if (activeColorMode === 'white') {
+                        img.style.filter = 'brightness(0) invert(1)';
+                    } else {
+                        img.style.filter = 'none';
+                    }
+                } else if (svg) {
+                    if (activeColorMode === 'black') {
+                        svg.style.color = '#000000';
+                        svg.style.stroke = svg.getAttribute('stroke') && svg.getAttribute('stroke') !== 'none' ? '#000000' : 'none';
+                        if (svg.getAttribute('fill') && svg.getAttribute('fill') !== 'none') svg.style.fill = '#000000';
+                    } else if (activeColorMode === 'white') {
+                        svg.style.color = '#FFFFFF';
+                        svg.style.stroke = svg.getAttribute('stroke') && svg.getAttribute('stroke') !== 'none' ? '#FFFFFF' : 'none';
+                        if (svg.getAttribute('fill') && svg.getAttribute('fill') !== 'none') svg.style.fill = '#FFFFFF';
+                    } else {
+                        svg.style.color = '';
+                        svg.style.stroke = '';
+                        svg.style.fill = '';
+                    }
+                }
+            });
+        }
+
+        function transformSvgColor(svgCode, mode) {
+            if (!svgCode || mode === 'original') return svgCode;
+            
+            const targetColor = mode === 'black' ? '#000000' : '#FFFFFF';
+            
+            try {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(svgCode, 'image/svg+xml');
+                const svgEl = doc.querySelector('svg');
+                if (!svgEl) return svgCode;
+
+                // Strip gradients or defs if converting to flat black/white
+                const defs = svgEl.querySelector('defs');
+                if (defs) defs.remove();
+
+                const elements = svgEl.querySelectorAll('*');
+                elements.forEach(el => {
+                    const fill = el.getAttribute('fill');
+                    const stroke = el.getAttribute('stroke');
+                    const style = el.getAttribute('style') || '';
+
+                    if (fill && fill !== 'none' && fill !== 'transparent') {
+                        el.setAttribute('fill', targetColor);
+                    } else if (!fill && !stroke && el.tagName.toLowerCase() === 'path') {
+                        el.setAttribute('fill', targetColor);
+                    }
+                    if (stroke && stroke !== 'none' && stroke !== 'transparent') {
+                        el.setAttribute('stroke', targetColor);
+                    }
+                    if (style) {
+                        let newStyle = style.replace(/fill:\s*[^;]+/g, `fill: ${targetColor}`);
+                        newStyle = newStyle.replace(/stroke:\s*[^;]+/g, `stroke: ${targetColor}`);
+                        el.setAttribute('style', newStyle);
+                    }
+                });
+
+                if (svgEl.getAttribute('fill') && svgEl.getAttribute('fill') !== 'none') {
+                    svgEl.setAttribute('fill', targetColor);
+                }
+                if (svgEl.getAttribute('stroke') && svgEl.getAttribute('stroke') !== 'none') {
+                    svgEl.setAttribute('stroke', targetColor);
+                }
+
+                return new XMLSerializer().serializeToString(svgEl);
+            } catch(e) {
+                return svgCode;
+            }
+        }
+
+        async function getSvgCode(card, colorMode = activeColorMode) {
             const inlineSvg = card.querySelector('.icon-container svg');
             const img = card.querySelector('.icon-container img');
             const filename = card.getAttribute('data-filename') || (card.getAttribute('data-name') ? `${card.getAttribute('data-name')}.svg` : null);
             const svgSrc = card.getAttribute('data-svg-src') || (img ? img.getAttribute('src') : (filename ? `assets/images/icons/${filename}` : null));
 
+            let rawCode = null;
+
             if (inlineSvg) {
                 const svgClone = inlineSvg.cloneNode(true);
                 svgClone.removeAttribute('class');
-                return svgClone.outerHTML;
-            }
-            if (svgSrc) {
+                rawCode = svgClone.outerHTML;
+            } else if (svgSrc) {
                 if (svgCache.has(svgSrc)) {
-                    return svgCache.get(svgSrc);
+                    rawCode = svgCache.get(svgSrc);
+                } else {
+                    try {
+                        const res = await fetch(svgSrc);
+                        if (res.ok) {
+                            rawCode = await res.text();
+                            svgCache.set(svgSrc, rawCode);
+                        }
+                    } catch(e) {}
                 }
-                try {
-                    const res = await fetch(svgSrc);
-                    if (res.ok) {
-                        const text = await res.text();
-                        svgCache.set(svgSrc, text);
-                        return text;
-                    }
-                } catch(e) {}
             }
-            return null;
+
+            if (!rawCode) return null;
+            return transformSvgColor(rawCode, colorMode);
         }
 
         // Attach action buttons to each card
         cards.forEach(card => {
-            if (!card.querySelector('.card-actions')) {
-                const actions = document.createElement('div');
-                actions.className = 'card-actions';
+            const existingActions = card.querySelector('.card-actions');
+            if (existingActions) existingActions.remove();
 
-                // Copy Button
-                const copyBtn = document.createElement('button');
-                copyBtn.className = 'btn-action btn-copy';
-                copyBtn.title = 'Copy SVG code';
-                copyBtn.innerHTML = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg> Copy';
-                
-                copyBtn.addEventListener('click', async (e) => {
+            const actions = document.createElement('div');
+            actions.className = 'card-actions';
+
+            const name = card.getAttribute('data-display-name') || 'Icon';
+            const baseFilename = card.getAttribute('data-filename') || `${card.getAttribute('data-name') || 'icon'}.svg`;
+            const baseName = baseFilename.replace('.svg', '');
+
+            // Copy Dropdown Group
+            const copyGroup = document.createElement('div');
+            copyGroup.className = 'btn-group';
+            copyGroup.innerHTML = `
+                <button class="btn-action btn-copy" title="Copy SVG code">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg> Copy ▾
+                </button>
+                <div class="dropdown-menu">
+                    <button class="dropdown-item" data-action="copy" data-color="original"><span class="color-dot dot-original"></span> Copy Original</button>
+                    <button class="dropdown-item" data-action="copy" data-color="black"><span class="color-dot dot-black"></span> Copy Black (#000000)</button>
+                    <button class="dropdown-item" data-action="copy" data-color="white"><span class="color-dot dot-white"></span> Copy White (#FFFFFF)</button>
+                </div>
+            `;
+
+            // Download Dropdown Group
+            const downloadGroup = document.createElement('div');
+            downloadGroup.className = 'btn-group';
+            downloadGroup.innerHTML = `
+                <button class="btn-action btn-download" title="Download SVG file">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg> Download ▾
+                </button>
+                <div class="dropdown-menu">
+                    <button class="dropdown-item" data-action="download" data-color="original"><span class="color-dot dot-original"></span> Original Color</button>
+                    <button class="dropdown-item" data-action="download" data-color="black"><span class="color-dot dot-black"></span> Black (#000000)</button>
+                    <button class="dropdown-item" data-action="download" data-color="white"><span class="color-dot dot-white"></span> White (#FFFFFF)</button>
+                </div>
+            `;
+
+            // Main Copy button click (uses activeColorMode)
+            copyGroup.querySelector('.btn-copy').addEventListener('click', async (e) => {
+                e.stopPropagation();
+                const code = await getSvgCode(card, activeColorMode);
+                if (code) {
+                    copyText(code, `Copied ${name} (${activeColorMode}) to clipboard!`);
+                }
+            });
+
+            // Main Download button click (uses activeColorMode)
+            downloadGroup.querySelector('.btn-download').addEventListener('click', async (e) => {
+                e.stopPropagation();
+                const code = await getSvgCode(card, activeColorMode);
+                if (code) {
+                    const outFilename = activeColorMode === 'original' ? `${baseName}.svg` : `${baseName}-${activeColorMode}.svg`;
+                    downloadSvg(code, outFilename);
+                    showToast(`Downloaded ${outFilename}!`);
+                }
+            });
+
+            // Dropdown items click handlers
+            copyGroup.querySelectorAll('.dropdown-item').forEach(item => {
+                item.addEventListener('click', async (e) => {
                     e.stopPropagation();
-                    const name = card.getAttribute('data-display-name') || 'Icon';
-                    const code = await getSvgCode(card);
+                    const color = item.getAttribute('data-color');
+                    const code = await getSvgCode(card, color);
                     if (code) {
-                        copyText(code, `Copied ${name} SVG to clipboard!`);
-                    } else {
-                        const src = card.getAttribute('data-svg-src') || name;
-                        copyText(src, `Copied ${name} path!`);
+                        copyText(code, `Copied ${name} (${color}) to clipboard!`);
                     }
                 });
+            });
 
-                // Download Button
-                const downloadBtn = document.createElement('button');
-                downloadBtn.className = 'btn-action btn-download';
-                downloadBtn.title = 'Download SVG file';
-                downloadBtn.innerHTML = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg> Download';
-
-                downloadBtn.addEventListener('click', async (e) => {
+            downloadGroup.querySelectorAll('.dropdown-item').forEach(item => {
+                item.addEventListener('click', async (e) => {
                     e.stopPropagation();
-                    const name = card.getAttribute('data-display-name') || 'Icon';
-                    const filename = card.getAttribute('data-filename') || `${card.getAttribute('data-name') || 'icon'}.svg`;
-                    const code = await getSvgCode(card);
+                    const color = item.getAttribute('data-color');
+                    const code = await getSvgCode(card, color);
                     if (code) {
-                        downloadSvg(code, filename);
-                        showToast(`Downloaded ${filename}!`);
+                        const outFilename = color === 'original' ? `${baseName}.svg` : `${baseName}-${color}.svg`;
+                        downloadSvg(code, outFilename);
+                        showToast(`Downloaded ${outFilename}!`);
                     }
                 });
+            });
 
-                actions.appendChild(copyBtn);
-                actions.appendChild(downloadBtn);
-                card.appendChild(actions);
-            }
+            actions.appendChild(copyGroup);
+            actions.appendChild(downloadGroup);
+            card.appendChild(actions);
 
             card.addEventListener('click', async () => {
-                const name = card.getAttribute('data-display-name') || 'Icon';
-                const code = await getSvgCode(card);
+                const code = await getSvgCode(card, activeColorMode);
                 if (code) {
                     copyText(code, `Copied ${name} SVG to clipboard!`);
                 }
             });
         });
+
 
         function copyText(text, successMsg) {
             navigator.clipboard.writeText(text).then(() => {
