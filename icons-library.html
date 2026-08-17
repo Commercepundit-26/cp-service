@@ -43563,8 +43563,11 @@
         const svgCache = new Map();
 
         async function getSvgCode(card) {
-            const inlineSvg = card.querySelector('svg');
-            const svgSrc = card.getAttribute('data-svg-src');
+            // ONLY select the icon inside .icon-container, NOT the copy/download button SVGs!
+            const inlineSvg = card.querySelector('.icon-container svg');
+            const img = card.querySelector('.icon-container img');
+            const filename = card.getAttribute('data-filename') || (card.getAttribute('data-name') ? `${card.getAttribute('data-name')}.svg` : null);
+            const svgSrc = card.getAttribute('data-svg-src') || (img ? img.getAttribute('src') : (filename ? `assets/images/icons/${filename}` : null));
 
             if (inlineSvg) {
                 const svgClone = inlineSvg.cloneNode(true);
