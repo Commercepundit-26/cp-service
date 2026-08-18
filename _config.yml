@@ -1,0 +1,2 @@
+include: ['Location-Page', 'location-page', 'assets', 'images']
+exclude: ['icons-library.html', 'icons.json']
