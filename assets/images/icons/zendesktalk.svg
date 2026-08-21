@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#03363D"/>
+  <!-- Zendesk Dialogue shapes -->
+  <path d="M64 64h64v64H64z" fill="#00A656"/>
+  <circle cx="160" cy="96" r="32" fill="#FFFFFF"/>
+  <path d="M128 128h64v64h-64z" fill="#00A656"/>
+  <circle cx="96" cy="160" r="32" fill="#FFFFFF"/>
+</svg>

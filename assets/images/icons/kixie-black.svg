@@ -1,0 +1,6 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Kixie Power Dialer Hexagon & Phone -->
+<polygon fill="none" points="128 36 216 86 216 170 128 220 40 170 40 86" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="16"></polygon>
+<path d="M152 148c-6.5-1.5-13.2-4.2-19.2-8-3.3-2-6.5-4.5-9.2-7.3s-5.3-5.9-7.3-9.2c-3.8-6-6.5-12.7-8-19.2-1-4.2.9-8.5 4.6-10.8l7.8-4.7c3.5-2.1 8-1.5 10.6 1.6l8.9 10.1c2.4 2.7 2.6 6.6.6 9.6l-3.9 5.8c3.6 5.4 8.1 9.9 13.5 13.5l5.8-3.9c3-2 6.9-1.8 9.6.6l10.1 8.9c3.1 2.6 3.7 7.1 1.6 10.6l-4.7 7.8c-2.3 3.7-6.6 5.6-10.8 4.6z" fill="#FFFFFF"></path>
+</svg>

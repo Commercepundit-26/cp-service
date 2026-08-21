@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#00204D"/>
+  <!-- Five9 5 and 9 Interconnected Dialer -->
+  <path d="M108 80H64v44h36c13.3 0 24 10.7 24 24s-10.7 24-24 24H60" fill="none" stroke="#00A3E0" stroke-width="22" stroke-linecap="round"/>
+  <path d="M152 176h40v-44h-36c-13.3 0-24-10.7-24-24s10.7-24 24-24h40" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="172" cy="108" r="14" fill="#00A3E0"/>
+</svg>

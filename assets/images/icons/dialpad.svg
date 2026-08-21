@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="dpGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B3FE4"/>
+      <stop offset="50%" stop-color="#E6007A"/>
+      <stop offset="100%" stop-color="#FF5A00"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#18132B"/>
+  <!-- Dialpad Waveform Bars forming D -->
+  <rect x="52" y="58" width="26" height="140" rx="13" fill="#7B3FE4"/>
+  <rect x="88" y="76" width="26" height="104" rx="13" fill="#B324B5"/>
+  <rect x="124" y="94" width="26" height="68" rx="13" fill="#E6007A"/>
+  <rect x="160" y="108" width="26" height="40" rx="13" fill="#FF5A00"/>
+  <!-- Arc connecting outer D -->
+  <path d="M78 58h48c41.4 0 75 33.6 75 75s-33.6 75-75 75H78" fill="none" stroke="url(#dpGrad)" stroke-width="26" stroke-linecap="round"/>
+</svg>

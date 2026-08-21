@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3133,
+  "total_icons": 3150,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -27557,7 +27557,11 @@
         "google",
         "software",
         "gmail.com",
-        "tech-logos"
+        "tech-logos",
+        "email",
+        "google workspace",
+        "messaging",
+        "soon"
       ],
       "urls": {
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/gmail.svg",
@@ -70253,7 +70257,11 @@
         "crm",
         "marketing",
         "sales",
-        "tech-logos"
+        "tech-logos",
+        "dialer",
+        "phone",
+        "live dialer",
+        "crm dialer"
       ],
       "urls": {
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/hubspot.svg",
@@ -72348,6 +72356,330 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/magento.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/magento-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/magento-white.svg"
+      }
+    },
+    {
+      "id": "freshcaller",
+      "name": "Freshcaller",
+      "category": "tech-logos",
+      "tags": [
+        "freshcaller",
+        "freshworks",
+        "voip",
+        "dialer",
+        "call center",
+        "phone system",
+        "telephony",
+        "crm",
+        "live dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/freshcaller.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/freshcaller-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/freshcaller-white.svg"
+      }
+    },
+    {
+      "id": "ringcentral",
+      "name": "RingCentral",
+      "category": "tech-logos",
+      "tags": [
+        "ringcentral",
+        "voip",
+        "cloud phone",
+        "dialer",
+        "pbx",
+        "telephony",
+        "business communications",
+        "call center",
+        "live dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ringcentral.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ringcentral-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ringcentral-white.svg"
+      }
+    },
+    {
+      "id": "talkdesk",
+      "name": "Talkdesk",
+      "category": "tech-logos",
+      "tags": [
+        "talkdesk",
+        "cloud contact center",
+        "dialer",
+        "telephony",
+        "customer support",
+        "live dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/talkdesk.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/talkdesk-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/talkdesk-white.svg"
+      }
+    },
+    {
+      "id": "outlook",
+      "name": "Outlook",
+      "category": "tech-logos",
+      "tags": [
+        "outlook",
+        "microsoft outlook",
+        "microsoft 365",
+        "office 365",
+        "email",
+        "calendar",
+        "soon",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/outlook.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/outlook-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/outlook-white.svg"
+      }
+    },
+    {
+      "id": "aircall",
+      "name": "Aircall",
+      "category": "tech-logos",
+      "tags": [
+        "aircall",
+        "cloud call center",
+        "phone system",
+        "voip",
+        "dialer",
+        "telephony",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aircall.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aircall-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aircall-white.svg"
+      }
+    },
+    {
+      "id": "dialpad",
+      "name": "Dialpad",
+      "category": "tech-logos",
+      "tags": [
+        "dialpad",
+        "ai dialer",
+        "cloud communications",
+        "telephony",
+        "voip",
+        "sales dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/dialpad.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/dialpad-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/dialpad-white.svg"
+      }
+    },
+    {
+      "id": "nextiva",
+      "name": "Nextiva",
+      "category": "tech-logos",
+      "tags": [
+        "nextiva",
+        "business phone",
+        "voip",
+        "cloud communications",
+        "telephony",
+        "dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nextiva.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nextiva-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nextiva-white.svg"
+      }
+    },
+    {
+      "id": "8x8",
+      "name": "8x8",
+      "category": "tech-logos",
+      "tags": [
+        "8x8",
+        "cloud phone",
+        "contact center",
+        "voip",
+        "telephony",
+        "dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/8x8.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/8x8-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/8x8-white.svg"
+      }
+    },
+    {
+      "id": "vonage",
+      "name": "Vonage",
+      "category": "tech-logos",
+      "tags": [
+        "vonage",
+        "cloud communications",
+        "voip",
+        "telephony",
+        "dialer",
+        "video api",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/vonage.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/vonage-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/vonage-white.svg"
+      }
+    },
+    {
+      "id": "five9",
+      "name": "Five9",
+      "category": "tech-logos",
+      "tags": [
+        "five9",
+        "cloud contact center",
+        "telephony",
+        "inbound outbound dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/five9.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/five9-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/five9-white.svg"
+      }
+    },
+    {
+      "id": "genesys",
+      "name": "Genesys",
+      "category": "tech-logos",
+      "tags": [
+        "genesys",
+        "contact center",
+        "telephony",
+        "customer experience",
+        "dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/genesys.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/genesys-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/genesys-white.svg"
+      }
+    },
+    {
+      "id": "cloudtalk",
+      "name": "CloudTalk",
+      "category": "tech-logos",
+      "tags": [
+        "cloudtalk",
+        "call center software",
+        "voip phone",
+        "sales dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cloudtalk.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cloudtalk-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cloudtalk-white.svg"
+      }
+    },
+    {
+      "id": "justcall",
+      "name": "JustCall",
+      "category": "tech-logos",
+      "tags": [
+        "justcall",
+        "cloud phone",
+        "sales dialer",
+        "sms",
+        "voip",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/justcall.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/justcall-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/justcall-white.svg"
+      }
+    },
+    {
+      "id": "kixie",
+      "name": "Kixie",
+      "category": "tech-logos",
+      "tags": [
+        "kixie",
+        "powercall",
+        "sales dialer",
+        "telephony",
+        "crm dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kixie.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kixie-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kixie-white.svg"
+      }
+    },
+    {
+      "id": "zendesktalk",
+      "name": "Zendesk Talk",
+      "category": "tech-logos",
+      "tags": [
+        "zendesk talk",
+        "zendesk",
+        "telephony",
+        "call center",
+        "voip",
+        "customer support",
+        "dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/zendesktalk.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/zendesktalk-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/zendesktalk-white.svg"
+      }
+    },
+    {
+      "id": "webex",
+      "name": "Cisco Webex",
+      "category": "tech-logos",
+      "tags": [
+        "webex",
+        "cisco webex",
+        "cloud calling",
+        "meeting",
+        "video",
+        "telephony",
+        "dialer",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/webex.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/webex-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/webex-white.svg"
+      }
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco",
+      "category": "tech-logos",
+      "tags": [
+        "cisco",
+        "networking",
+        "voip",
+        "telephony",
+        "infrastructure",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cisco.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cisco-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cisco-white.svg"
       }
     }
   ]

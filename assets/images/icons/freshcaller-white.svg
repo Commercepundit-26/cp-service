@@ -1,0 +1,11 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- Phone Handset -->
+<path d="M174.5 159.2c-10.4-2.3-21.1-6.7-30.8-12.8-5.3-3.3-10.3-7.2-14.8-11.7s-8.4-9.5-11.7-14.8c-6.1-9.7-10.5-20.4-12.8-30.8-1.5-6.8 1.4-13.6 7.4-17.2l12.4-7.5c5.6-3.4 12.7-2.3 17 2.6l14.2 16.2c3.8 4.3 4.2 10.6 1 15.4l-6.2 9.3c5.8 8.6 13 15.8 21.6 21.6l9.3-6.2c4.8-3.2 11.1-2.8 15.4 1l16.2 14.2c4.9 4.3 6 11.4 2.6 17l-7.5 12.4c-3.6 6-10.4 8.9-17.2 7.4z" fill="#000000"></path>
+<!-- Caller Sound Waves -->
+<path d="M165 72c15.5 8.9 27.8 22.8 35 39.5" fill="none" stroke="#000000" stroke-linecap="round" stroke-width="14"></path>
+<path d="M188 52c23.2 13.4 41.7 34.2 52.5 59.2" fill="none" stroke="#000000" stroke-linecap="round" stroke-width="14"></path>
+</svg>

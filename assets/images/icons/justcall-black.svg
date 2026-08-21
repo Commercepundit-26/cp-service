@@ -1,0 +1,7 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Telephone speech bubble -->
+<path d="M68 64h120c15.5 0 28 12.5 28 28v72c0 15.5-12.5 28-28 28H108l-36 24v-24H68c-15.5 0-28-12.5-28-28V92c0-15.5 12.5-28 28-28z" fill="#FFFFFF"></path>
+<!-- Lightning Dialer Bolt -->
+<path d="M136 86l-28 38h24l-12 46 36-44h-24l12-40h-8z" fill="#FFFFFF"></path>
+</svg>
