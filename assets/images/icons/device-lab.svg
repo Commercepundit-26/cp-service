@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="labGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066CC"/>
+      <stop offset="100%" stop-color="#003D7A"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#labGrad)"/>
+  <!-- Phone 1 (Foreground) -->
+  <rect x="68" y="56" width="68" height="128" rx="12" fill="#0F172A" stroke="#38BDF8" stroke-width="10"/>
+  <circle cx="102" cy="164" r="4" fill="#38BDF8"/>
+  <!-- Tablet (Background) -->
+  <rect x="120" y="76" width="76" height="116" rx="10" fill="#1E293B" stroke="#FFFFFF" stroke-width="10"/>
+  <circle cx="158" cy="172" r="4" fill="#FFFFFF"/>
+  <!-- Test Pulse Waves -->
+  <path d="M60 216h136" stroke="#38BDF8" stroke-width="12" stroke-linecap="round"/>
+</svg>

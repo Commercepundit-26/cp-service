@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#18181B"/>
+  <!-- Smartphone Outline -->
+  <rect x="68" y="44" width="120" height="168" rx="16" fill="none" stroke="#71717A" stroke-width="12"/>
+  <!-- Bug / Defect Marker with Crosshair Target -->
+  <circle cx="128" cy="120" r="28" fill="#EF4444"/>
+  <circle cx="128" cy="120" r="44" fill="none" stroke="#EF4444" stroke-width="8" stroke-dasharray="8 8"/>
+  <line x1="128" y1="64" x2="128" y2="176" stroke="#EF4444" stroke-width="4"/>
+  <line x1="76" y1="120" x2="180" y2="120" stroke="#EF4444" stroke-width="4"/>
+</svg>

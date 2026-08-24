@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+  <!-- SSL Certificate Padlock with Pinning Key -->
+  <rect x="68" y="104" width="120" height="96" rx="16" fill="#10B981"/>
+  <path d="M92 104V76c0-19.9 16.1-36 36-36s36 16.1 36 36v28" fill="none" stroke="#10B981" stroke-width="20" stroke-linecap="round"/>
+  <!-- Validation Checkmark & Pin -->
+  <circle cx="128" cy="144" r="12" fill="#0F172A"/>
+  <path d="M128 156v16" stroke="#0F172A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M168 184l18 18 36-36" fill="none" stroke="#38BDF8" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

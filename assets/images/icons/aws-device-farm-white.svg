@@ -1,0 +1,9 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- AWS Device Farm Mobile Grid -->
+<rect fill="none" height="96" rx="8" stroke="#000000" stroke-width="12" width="56" x="52" y="60"></rect>
+<circle cx="80" cy="138" fill="#000000" r="4"></circle>
+<rect fill="none" height="96" rx="8" stroke="#000000" stroke-width="12" width="56" x="148" y="60"></rect>
+<circle cx="176" cy="138" fill="#000000" r="4"></circle>
+<path d="M80 180h96l-48 36-48-36z" fill="#000000"></path>
+</svg>

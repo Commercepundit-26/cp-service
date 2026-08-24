@@ -1,0 +1,16 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- Coffee Cup with Android Droid Antennas -->
+<path d="M72 108h96v52c0 26.5-21.5 48-48 48s-48-21.5-48-48v-52z" fill="#000000"></path>
+<path d="M168 120h16c11 0 20 9 20 20s-9 20-20 20h-16" fill="none" stroke="#000000" stroke-linecap="round" stroke-width="14"></path>
+<line stroke="#000000" stroke-linecap="round" stroke-width="14" x1="56" x2="184" y1="216" y2="216"></line>
+<!-- Android Antennas as Steam -->
+<line stroke="#000000" stroke-linecap="round" stroke-width="12" x1="102" x2="88" y1="92" y2="60"></line>
+<line stroke="#000000" stroke-linecap="round" stroke-width="12" x1="138" x2="152" y1="92" y2="60"></line>
+<!-- Eyes -->
+<circle cx="104" cy="136" fill="#000000" r="6"></circle>
+<circle cx="136" cy="136" fill="#000000" r="6"></circle>
+</svg>

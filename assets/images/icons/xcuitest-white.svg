@@ -1,0 +1,10 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- iOS Test UI Hammer & Checkmark Blueprint -->
+<path d="M128 44l72 72-72 72-72-72 72-72z" fill="none" stroke="#000000" stroke-linejoin="round" stroke-width="16"></path>
+<path d="M104 128l16 16 36-36" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"></path>
+<text fill="#000000" font-family="-apple-system, system-ui, sans-serif" font-size="28" font-weight="bold" letter-spacing="1" text-anchor="middle" x="128" y="222">XCUITest</text>
+</svg>

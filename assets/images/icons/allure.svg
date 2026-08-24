@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#1E293B"/>
+  <!-- Allure Multi-layered Test Reporting Triangle -->
+  <polygon points="128 44 204 184 52 184" fill="#FF7043"/>
+  <polygon points="128 84 180 184 76 184" fill="#42A5F5"/>
+  <polygon points="128 124 156 184 100 184" fill="#66BB6A"/>
+</svg>

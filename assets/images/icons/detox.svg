@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#111111"/>
+  <!-- Detox Bottle & Chemical React Native testing flask -->
+  <path d="M112 40h32v28h-32z" fill="#E03E3E"/>
+  <path d="M96 68h64l48 120c4 10-3 20-14 20H62c-11 0-18-10-14-20l48-120z" fill="#E03E3E"/>
+  <path d="M128 116l14 24h-28l14-24z" fill="#FFFFFF"/>
+  <circle cx="128" cy="168" r="12" fill="#FFFFFF"/>
+  <text x="128" y="238" font-family="system-ui, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">DETOX</text>
+</svg>

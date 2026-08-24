@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3150,
+  "total_icons": 3175,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -27241,8 +27241,10 @@
       "category": "tech-logos",
       "tags": [
         "gitlab",
-        "software",
-        "gitlab.com",
+        "gitlab ci",
+        "continuous integration",
+        "devops",
+        "mobile pipelines",
         "tech-logos"
       ],
       "urls": {
@@ -70799,10 +70801,12 @@
       "name": "GitHub Actions",
       "category": "tech-logos",
       "tags": [
+        "githubactions",
         "github actions",
-        "ci",
-        "cd",
-        "devops",
+        "ci cd",
+        "continuous integration",
+        "build automation",
+        "mobile devops",
         "tech-logos"
       ],
       "urls": {
@@ -71068,9 +71072,10 @@
       "category": "tech-logos",
       "tags": [
         "firebase",
-        "database",
-        "backend as a service",
-        "google",
+        "google firebase",
+        "mobile backend",
+        "crashlytics",
+        "test lab",
         "tech-logos"
       ],
       "urls": {
@@ -71600,11 +71605,11 @@
       "name": "Apache JMeter",
       "category": "tech-logos",
       "tags": [
+        "apachejmeter",
         "jmeter",
         "performance testing",
         "load testing",
-        "stress testing",
-        "qa",
+        "stress test",
         "tech-logos"
       ],
       "urls": {
@@ -71619,11 +71624,11 @@
       "category": "tech-logos",
       "tags": [
         "appium",
-        "mobile testing",
-        "automation",
+        "mobile automation",
         "ios",
         "android",
-        "qa",
+        "test framework",
+        "automation framework",
         "tech-logos"
       ],
       "urls": {
@@ -71656,10 +71661,11 @@
       "category": "tech-logos",
       "tags": [
         "browserstack",
-        "cross browser testing",
-        "cloud testing",
-        "mobile",
-        "qa",
+        "real device cloud",
+        "mobile testing",
+        "cross browser",
+        "device lab",
+        "cloud lab",
         "tech-logos"
       ],
       "urls": {
@@ -72107,11 +72113,12 @@
       "name": "Sauce Labs",
       "category": "tech-logos",
       "tags": [
+        "saucelabs",
         "sauce labs",
-        "cross browser testing",
-        "test automation",
-        "cloud",
-        "qa",
+        "real device cloud",
+        "mobile automation",
+        "cloud lab",
+        "selenium",
         "tech-logos"
       ],
       "urls": {
@@ -72680,6 +72687,479 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cisco.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cisco-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cisco-white.svg"
+      }
+    },
+    {
+      "id": "xcuitest",
+      "name": "XCUITest",
+      "category": "tech-logos",
+      "tags": [
+        "xcuitest",
+        "apple",
+        "ios",
+        "mobile automation",
+        "xcode",
+        "ui test",
+        "automation framework",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/xcuitest.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/xcuitest-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/xcuitest-white.svg"
+      }
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "category": "tech-logos",
+      "tags": [
+        "espresso",
+        "android",
+        "google",
+        "mobile automation",
+        "ui test",
+        "automation framework",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/espresso.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/espresso-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/espresso-white.svg"
+      }
+    },
+    {
+      "id": "detox",
+      "name": "Detox",
+      "category": "tech-logos",
+      "tags": [
+        "detox",
+        "react native",
+        "wix",
+        "graybox",
+        "mobile automation",
+        "e2e testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/detox.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/detox-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/detox-white.svg"
+      }
+    },
+    {
+      "id": "webdriverio",
+      "name": "WebdriverIO Mobile",
+      "category": "tech-logos",
+      "tags": [
+        "webdriverio",
+        "wdio",
+        "mobile automation",
+        "appium",
+        "browser",
+        "selenium",
+        "e2e",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/webdriverio.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/webdriverio-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/webdriverio-white.svg"
+      }
+    },
+    {
+      "id": "aws-device-farm",
+      "name": "AWS Device Farm",
+      "category": "tech-logos",
+      "tags": [
+        "aws device farm",
+        "amazon web services",
+        "real device lab",
+        "mobile cloud testing",
+        "device matrix",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aws-device-farm.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aws-device-farm-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aws-device-farm-white.svg"
+      }
+    },
+    {
+      "id": "lambdatest",
+      "name": "LambdaTest",
+      "category": "tech-logos",
+      "tags": [
+        "lambdatest",
+        "real device cloud",
+        "cross browser testing",
+        "mobile lab",
+        "automation cloud",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/lambdatest.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/lambdatest-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/lambdatest-white.svg"
+      }
+    },
+    {
+      "id": "device-lab",
+      "name": "In-House Physical Device Lab",
+      "category": "tech-logos",
+      "tags": [
+        "device lab",
+        "physical device lab",
+        "in house lab",
+        "real devices",
+        "mobile hardware testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/device-lab.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/device-lab-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/device-lab-white.svg"
+      }
+    },
+    {
+      "id": "jmeter",
+      "name": "JMeter",
+      "category": "tech-logos",
+      "tags": [
+        "jmeter",
+        "apache jmeter",
+        "performance testing",
+        "load testing",
+        "stress test",
+        "api testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jmeter.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jmeter-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jmeter-white.svg"
+      }
+    },
+    {
+      "id": "k6",
+      "name": "k6",
+      "category": "tech-logos",
+      "tags": [
+        "k6",
+        "grafana k6",
+        "load testing",
+        "performance testing",
+        "developer load testing",
+        "stress testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/k6.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/k6-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/k6-white.svg"
+      }
+    },
+    {
+      "id": "charles-proxy",
+      "name": "Charles Proxy",
+      "category": "tech-logos",
+      "tags": [
+        "charles proxy",
+        "charles",
+        "network debugging",
+        "http proxy",
+        "ssl proxy",
+        "network traffic",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/charles-proxy.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/charles-proxy-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/charles-proxy-white.svg"
+      }
+    },
+    {
+      "id": "network-link-conditioner",
+      "name": "Network Link Conditioner",
+      "category": "tech-logos",
+      "tags": [
+        "network link conditioner",
+        "network simulation",
+        "throttle",
+        "latency",
+        "packet loss",
+        "bandwidth testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/network-link-conditioner.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/network-link-conditioner-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/network-link-conditioner-white.svg"
+      }
+    },
+    {
+      "id": "firebase-performance",
+      "name": "Firebase Performance Monitoring",
+      "category": "tech-logos",
+      "tags": [
+        "firebase performance",
+        "google firebase",
+        "apm",
+        "app latency",
+        "telemetry",
+        "mobile monitoring",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/firebase-performance.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/firebase-performance-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/firebase-performance-white.svg"
+      }
+    },
+    {
+      "id": "owasp",
+      "name": "OWASP Mobile Security (MSTG)",
+      "category": "tech-logos",
+      "tags": [
+        "owasp",
+        "mstg",
+        "masvs",
+        "mobile security",
+        "security testing",
+        "vulnerability",
+        "penetration testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/owasp.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/owasp-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/owasp-white.svg"
+      }
+    },
+    {
+      "id": "burpsuite",
+      "name": "Burp Suite",
+      "category": "tech-logos",
+      "tags": [
+        "burpsuite",
+        "portswigger",
+        "security testing",
+        "web security",
+        "api security",
+        "penetration testing",
+        "proxy",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/burpsuite.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/burpsuite-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/burpsuite-white.svg"
+      }
+    },
+    {
+      "id": "mobsf",
+      "name": "MobSF",
+      "category": "tech-logos",
+      "tags": [
+        "mobsf",
+        "mobile security framework",
+        "static analysis",
+        "dynamic analysis",
+        "android security",
+        "ios security",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mobsf.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mobsf-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mobsf-white.svg"
+      }
+    },
+    {
+      "id": "ssl-pinning",
+      "name": "SSL Pinning Validation",
+      "category": "tech-logos",
+      "tags": [
+        "ssl pinning",
+        "certificate pinning",
+        "security validation",
+        "mitm protection",
+        "tls security",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ssl-pinning.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ssl-pinning-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ssl-pinning-white.svg"
+      }
+    },
+    {
+      "id": "fastlane",
+      "name": "Fastlane",
+      "category": "tech-logos",
+      "tags": [
+        "fastlane",
+        "ios deployment",
+        "android deployment",
+        "mobile ci cd",
+        "build automation",
+        "release management",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fastlane.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fastlane-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fastlane-white.svg"
+      }
+    },
+    {
+      "id": "bitrise",
+      "name": "Bitrise",
+      "category": "tech-logos",
+      "tags": [
+        "bitrise",
+        "mobile ci cd",
+        "continuous integration",
+        "mobile devops",
+        "build automation",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bitrise.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bitrise-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bitrise-white.svg"
+      }
+    },
+    {
+      "id": "azuredevops",
+      "name": "Azure DevOps",
+      "category": "tech-logos",
+      "tags": [
+        "azure devops",
+        "microsoft azure",
+        "ci cd pipelines",
+        "devops",
+        "repos",
+        "agile planning",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/azuredevops.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/azuredevops-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/azuredevops-white.svg"
+      }
+    },
+    {
+      "id": "circleci",
+      "name": "CircleCI",
+      "category": "tech-logos",
+      "tags": [
+        "circleci",
+        "ci cd",
+        "continuous integration",
+        "build automation",
+        "cloud pipelines",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/circleci.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/circleci-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/circleci-white.svg"
+      }
+    },
+    {
+      "id": "testrail",
+      "name": "TestRail",
+      "category": "tech-logos",
+      "tags": [
+        "testrail",
+        "test management",
+        "qa management",
+        "test cases",
+        "test runs",
+        "test reporting",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testrail.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testrail-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testrail-white.svg"
+      }
+    },
+    {
+      "id": "jira",
+      "name": "Jira",
+      "category": "tech-logos",
+      "tags": [
+        "jira",
+        "atlassian",
+        "issue tracking",
+        "bug tracking",
+        "agile",
+        "sprint planning",
+        "defect management",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jira.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jira-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jira-white.svg"
+      }
+    },
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "category": "tech-logos",
+      "tags": [
+        "zephyr",
+        "zephyr scale",
+        "zephyr squad",
+        "test management",
+        "jira test management",
+        "qa reporting",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/zephyr.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/zephyr-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/zephyr-white.svg"
+      }
+    },
+    {
+      "id": "allure",
+      "name": "Allure Report",
+      "category": "tech-logos",
+      "tags": [
+        "allure",
+        "allure report",
+        "qameta",
+        "test reporting",
+        "test analytics",
+        "qa dashboard",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/allure.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/allure-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/allure-white.svg"
+      }
+    },
+    {
+      "id": "defect-tracking",
+      "name": "Mobile Defect Tracking",
+      "category": "tech-logos",
+      "tags": [
+        "defect tracking",
+        "bug tracking",
+        "mobile defect triage",
+        "issue workflows",
+        "defect life cycle",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/defect-tracking.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/defect-tracking-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/defect-tracking-white.svg"
       }
     }
   ]

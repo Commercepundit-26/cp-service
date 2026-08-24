@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="espGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3DDC84"/>
+      <stop offset="100%" stop-color="#2DA863"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#1C2426"/>
+  <!-- Coffee Cup with Android Droid Antennas -->
+  <path d="M72 108h96v52c0 26.5-21.5 48-48 48s-48-21.5-48-48v-52z" fill="url(#espGrad)"/>
+  <path d="M168 120h16c11 0 20 9 20 20s-9 20-20 20h-16" fill="none" stroke="#3DDC84" stroke-width="14" stroke-linecap="round"/>
+  <line x1="56" y1="216" x2="184" y2="216" stroke="#3DDC84" stroke-width="14" stroke-linecap="round"/>
+  <!-- Android Antennas as Steam -->
+  <line x1="102" y1="92" x2="88" y2="60" stroke="#3DDC84" stroke-width="12" stroke-linecap="round"/>
+  <line x1="138" y1="92" x2="152" y2="60" stroke="#3DDC84" stroke-width="12" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="104" cy="136" r="6" fill="#1C2426"/>
+  <circle cx="136" cy="136" r="6" fill="#1C2426"/>
+</svg>

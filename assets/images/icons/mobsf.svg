@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="mobGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3949AB"/>
+      <stop offset="100%" stop-color="#1A237E"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#mobGrad)"/>
+  <!-- Security Shield & Mobile Bug Scanner -->
+  <path d="M128 44l64 24v56c0 48-36 84-64 96-28-12-64-48-64-96V68l64-24z" fill="none" stroke="#00E676" stroke-width="16" stroke-linejoin="round"/>
+  <!-- Mobile Phone with Bug -->
+  <rect x="104" y="88" width="48" height="76" rx="8" fill="#FFFFFF"/>
+  <circle cx="128" cy="120" r="10" fill="#E53935"/>
+  <path d="M118 114l-8-6M138 114l8-6M118 126l-8 6M138 126l8 6" stroke="#E53935" stroke-width="4" stroke-linecap="round"/>
+</svg>

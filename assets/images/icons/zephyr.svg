@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#0052CC"/>
+  <!-- Zephyr Z and Test Scale Mark -->
+  <path d="M64 76h128l-88 104h96" fill="none" stroke="#00B8D9" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="184" cy="76" r="12" fill="#FFFFFF"/>
+  <circle cx="72" cy="180" r="12" fill="#FFFFFF"/>
+</svg>

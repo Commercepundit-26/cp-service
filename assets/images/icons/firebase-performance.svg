@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#1A1C1E"/>
+  <!-- Firebase Flame Base -->
+  <path d="M60 188l36-124 32 40-16 28L60 188z" fill="#FFA000"/>
+  <path d="M196 188l-68-124-36 68 104 56z" fill="#F57C00"/>
+  <path d="M96 64l32 60 68 64-100-124z" fill="#FFCA28"/>
+  <!-- Performance Telemetry Pulse -->
+  <path d="M48 206h36l16-24 24 40 24-32 16 16h44" fill="none" stroke="#00B0FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+  <!-- Network Gauge / Speed Throttle Meter -->
+  <path d="M52 168a88 88 0 1 1 152 0" fill="none" stroke="#38BDF8" stroke-width="18" stroke-linecap="round"/>
+  <!-- Tachometer Dial Needle -->
+  <line x1="128" y1="140" x2="180" y2="92" stroke="#EF4444" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="128" cy="140" r="14" fill="#FFFFFF"/>
+  <!-- Network Signal Waves -->
+  <path d="M104 196h48" stroke="#38BDF8" stroke-width="12" stroke-linecap="round"/>
+</svg>
