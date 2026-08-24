@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#2B3A42"/>
+  <!-- TestNG Gear & Test Badge -->
+  <circle cx="128" cy="116" r="52" fill="#FF8C00"/>
+  <circle cx="128" cy="116" r="28" fill="#2B3A42"/>
+  <text x="128" y="125" font-family="system-ui, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" text-anchor="middle">NG</text>
+  <text x="128" y="214" font-family="system-ui, sans-serif" font-size="26" font-weight="bold" fill="#FF8C00" text-anchor="middle">TestNG</text>
+</svg>

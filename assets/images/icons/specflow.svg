@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="sfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E8B18"/>
+      <stop offset="100%" stop-color="#2E5B10"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#sfGrad)"/>
+  <!-- BDD Cucumber Branch Flow -->
+  <path d="M72 136c0-30.9 25.1-56 56-56s56 25.1 56 56-25.1 56-56 56-56-25.1-56-56z" fill="#FFFFFF"/>
+  <path d="M104 136l18 18 36-36" fill="none" stroke="#4E8B18" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="224" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SpecFlow</text>
+</svg>

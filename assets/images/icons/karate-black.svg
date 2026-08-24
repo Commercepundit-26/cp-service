@@ -1,0 +1,10 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Karate Martial Fist & Automation Spark -->
+<circle cx="128" cy="120" fill="#FFFFFF" r="48"></circle>
+<path d="M112 104h32v32h-32z" fill="#FFFFFF"></path>
+<path d="M128 88v16M128 136v16M104 120h-16M152 120h16" stroke="#FFFFFF" stroke-linecap="round" stroke-width="6"></path>
+<!-- Black Belt -->
+<rect fill="#FFFFFF" height="24" rx="6" width="120" x="68" y="176"></rect>
+<text fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" x="128" y="194">KARATE</text>
+</svg>

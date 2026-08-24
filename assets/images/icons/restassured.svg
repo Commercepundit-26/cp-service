@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="raGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E76F00"/>
+      <stop offset="100%" stop-color="#C05800"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="#182230"/>
+  <!-- API REST Connection Nodes -->
+  <circle cx="84" cy="128" r="28" fill="url(#raGrad)"/>
+  <circle cx="172" cy="128" r="28" fill="#00B140"/>
+  <path d="M108 128h38" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <!-- Checkmark on Assured Node -->
+  <path d="M162 128l8 8 16-16" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="216" font-family="-apple-system, system-ui, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">REST-assured</text>
+</svg>

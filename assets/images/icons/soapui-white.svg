@@ -1,0 +1,11 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- SoapUI Testing Hexagon / Beaker -->
+<polygon fill="#000000" points="128 44 204 88 204 168 128 212 52 168 52 88"></polygon>
+<path d="M96 112h64v32H96z" fill="#000000"></path>
+<text fill="#000000" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" x="128" y="136">SOAP</text>
+<text fill="#000000" font-family="system-ui, sans-serif" font-size="22" font-weight="900" text-anchor="middle" x="128" y="196">SoapUI</text>
+</svg>

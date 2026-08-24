@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3175,
+  "total_icons": 3190,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -18263,8 +18263,10 @@
       "category": "tech-logos",
       "tags": [
         "cypress",
-        "framework",
-        "cypress.io",
+        "ui automation",
+        "e2e testing",
+        "component testing",
+        "javascript testing",
         "tech-logos"
       ],
       "urls": {
@@ -46750,8 +46752,10 @@
       "category": "tech-logos",
       "tags": [
         "playwright",
-        "framework",
-        "playwright.dev",
+        "microsoft playwright",
+        "ui automation",
+        "e2e testing",
+        "cross browser",
         "tech-logos"
       ],
       "urls": {
@@ -47411,8 +47415,10 @@
       "category": "tech-logos",
       "tags": [
         "postman",
-        "software",
-        "getpostman.com",
+        "api testing",
+        "rest api",
+        "api automation",
+        "mock server",
         "tech-logos"
       ],
       "urls": {
@@ -71771,8 +71777,8 @@
         "gatling",
         "load testing",
         "performance testing",
-        "stress testing",
-        "qa",
+        "stress test",
+        "scala load test",
         "tech-logos"
       ],
       "urls": {
@@ -72133,11 +72139,10 @@
       "category": "tech-logos",
       "tags": [
         "selenium",
-        "testing",
-        "automation",
+        "ui automation",
+        "webdriver",
         "browser automation",
-        "qa",
-        "e2e",
+        "testing framework",
         "tech-logos"
       ],
       "urls": {
@@ -73160,6 +73165,287 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/defect-tracking.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/defect-tracking-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/defect-tracking-white.svg"
+      }
+    },
+    {
+      "id": "testcafe",
+      "name": "TestCafe",
+      "category": "tech-logos",
+      "tags": [
+        "testcafe",
+        "devexpress",
+        "ui automation",
+        "e2e testing",
+        "browser testing",
+        "javascript testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testcafe.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testcafe-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testcafe-white.svg"
+      }
+    },
+    {
+      "id": "restassured",
+      "name": "REST Assured",
+      "category": "tech-logos",
+      "tags": [
+        "restassured",
+        "rest assured",
+        "api testing",
+        "java rest api",
+        "http testing",
+        "automation testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/restassured.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/restassured-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/restassured-white.svg"
+      }
+    },
+    {
+      "id": "soapui",
+      "name": "SoapUI",
+      "category": "tech-logos",
+      "tags": [
+        "soapui",
+        "smartbear",
+        "soap testing",
+        "rest api",
+        "api automation",
+        "web service testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/soapui.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/soapui-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/soapui-white.svg"
+      }
+    },
+    {
+      "id": "karate",
+      "name": "Karate",
+      "category": "tech-logos",
+      "tags": [
+        "karate",
+        "karate framework",
+        "api testing",
+        "bdd",
+        "test automation",
+        "e2e",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/karate.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/karate-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/karate-white.svg"
+      }
+    },
+    {
+      "id": "newman",
+      "name": "Newman",
+      "category": "tech-logos",
+      "tags": [
+        "newman",
+        "postman newman",
+        "postman cli",
+        "api automation",
+        "cli test runner",
+        "collection runner",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/newman.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/newman-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/newman-white.svg"
+      }
+    },
+    {
+      "id": "locust",
+      "name": "Locust",
+      "category": "tech-logos",
+      "tags": [
+        "locust",
+        "locust.io",
+        "load testing",
+        "performance testing",
+        "python load testing",
+        "stress test",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/locust.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/locust-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/locust-white.svg"
+      }
+    },
+    {
+      "id": "blazemeter",
+      "name": "BlazeMeter",
+      "category": "tech-logos",
+      "tags": [
+        "blazemeter",
+        "perforce",
+        "continuous performance testing",
+        "jmeter cloud",
+        "load test",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/blazemeter.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/blazemeter-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/blazemeter-white.svg"
+      }
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "category": "tech-logos",
+      "tags": [
+        "cucumber",
+        "bdd",
+        "gherkin",
+        "behavior driven development",
+        "test automation",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cucumber.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cucumber-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cucumber-white.svg"
+      }
+    },
+    {
+      "id": "specflow",
+      "name": "SpecFlow",
+      "category": "tech-logos",
+      "tags": [
+        "specflow",
+        ".net bdd",
+        "c# testing",
+        "gherkin",
+        "behavior driven development",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/specflow.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/specflow-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/specflow-white.svg"
+      }
+    },
+    {
+      "id": "testng",
+      "name": "TestNG",
+      "category": "tech-logos",
+      "tags": [
+        "testng",
+        "java testing",
+        "test framework",
+        "unit test",
+        "integration test",
+        "automation framework",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testng.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testng-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/testng-white.svg"
+      }
+    },
+    {
+      "id": "junit",
+      "name": "JUnit",
+      "category": "tech-logos",
+      "tags": [
+        "junit",
+        "junit 5",
+        "java unit test",
+        "test framework",
+        "tdd",
+        "automation framework",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/junit.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/junit-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/junit-white.svg"
+      }
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "category": "tech-logos",
+      "tags": [
+        "jenkins",
+        "continuous integration",
+        "ci cd",
+        "build automation",
+        "devops",
+        "pipeline",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jenkins.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jenkins-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/jenkins-white.svg"
+      }
+    },
+    {
+      "id": "bitbucket",
+      "name": "Bitbucket Pipelines",
+      "category": "tech-logos",
+      "tags": [
+        "bitbucket",
+        "bitbucket pipelines",
+        "atlassian",
+        "ci cd",
+        "git repository",
+        "cloud pipelines",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bitbucket.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bitbucket-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bitbucket-white.svg"
+      }
+    },
+    {
+      "id": "extentreports",
+      "name": "ExtentReports",
+      "category": "tech-logos",
+      "tags": [
+        "extentreports",
+        "extent reports",
+        "html reporting",
+        "test analytics",
+        "qa dashboard",
+        "test reports",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/extentreports.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/extentreports-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/extentreports-white.svg"
+      }
+    },
+    {
+      "id": "reportportal",
+      "name": "ReportPortal",
+      "category": "tech-logos",
+      "tags": [
+        "reportportal",
+        "reportportal.io",
+        "ai test automation dashboard",
+        "qa analytics",
+        "real time reporting",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/reportportal.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/reportportal-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/reportportal-white.svg"
       }
     }
   ]
