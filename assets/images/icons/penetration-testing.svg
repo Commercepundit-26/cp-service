@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+  <!-- Security Shield -->
+  <path d="M128 44l68 28v56c0 52-38 92-68 104-30-12-68-52-68-104V72l68-28z" fill="none" stroke="#E11D48" stroke-width="16" stroke-linejoin="round"/>
+  <!-- Penetration Test Crosshair / Target -->
+  <circle cx="128" cy="124" r="28" fill="none" stroke="#38BDF8" stroke-width="8" stroke-dasharray="6 6"/>
+  <circle cx="128" cy="124" r="10" fill="#E11D48"/>
+  <line x1="128" y1="84" x2="128" y2="164" stroke="#38BDF8" stroke-width="4"/>
+  <line x1="88" y1="124" x2="168" y2="124" stroke="#38BDF8" stroke-width="4"/>
+</svg>

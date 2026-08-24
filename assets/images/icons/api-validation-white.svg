@@ -1,0 +1,9 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- API JSON Payload Brackets { } -->
+<path d="M96 76c-16 0-24 8-24 24v16c0 10-8 16-16 16 8 0 16 6 16 16v16c0 16 8 24 24 24" fill="none" stroke="#000000" stroke-linecap="round" stroke-width="14"></path>
+<path d="M160 76c16 0 24 8 24 24v16c0 10 8 16 16 16-8 0-16 6-16 16v16c0 16-8 24-24 24" fill="none" stroke="#000000" stroke-linecap="round" stroke-width="14"></path>
+<!-- Validation Checkmark -->
+<circle cx="128" cy="132" fill="#000000" r="32"></circle>
+<path d="M116 132l8 8 16-16" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"></path>
+</svg>

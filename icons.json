@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3190,
+  "total_icons": 3197,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -60411,8 +60411,11 @@
       "category": "tech-logos",
       "tags": [
         "swagger",
-        "software",
-        "swagger.io",
+        "openapi",
+        "api documentation",
+        "rest api",
+        "api testing",
+        "api validation",
         "tech-logos"
       ],
       "urls": {
@@ -73446,6 +73449,138 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/reportportal.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/reportportal-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/reportportal-white.svg"
+      }
+    },
+    {
+      "id": "owasp-zap",
+      "name": "OWASP ZAP",
+      "category": "tech-logos",
+      "tags": [
+        "owasp zap",
+        "zap",
+        "zed attack proxy",
+        "security testing",
+        "dast",
+        "vulnerability scanner",
+        "penetration testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/owasp-zap.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/owasp-zap-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/owasp-zap-white.svg"
+      }
+    },
+    {
+      "id": "nessus",
+      "name": "Nessus",
+      "category": "tech-logos",
+      "tags": [
+        "nessus",
+        "tenable",
+        "vulnerability assessment",
+        "security scanner",
+        "network security",
+        "penetration testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nessus.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nessus-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nessus-white.svg"
+      }
+    },
+    {
+      "id": "metasploit",
+      "name": "Metasploit",
+      "category": "tech-logos",
+      "tags": [
+        "metasploit",
+        "rapid7",
+        "penetration testing",
+        "exploit framework",
+        "security testing",
+        "ethical hacking",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/metasploit.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/metasploit-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/metasploit-white.svg"
+      }
+    },
+    {
+      "id": "qtest",
+      "name": "qTest",
+      "category": "tech-logos",
+      "tags": [
+        "qtest",
+        "tricentis qtest",
+        "test management",
+        "test execution",
+        "jira integration",
+        "agile testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/qtest.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/qtest-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/qtest-white.svg"
+      }
+    },
+    {
+      "id": "tricentis",
+      "name": "Tricentis",
+      "category": "tech-logos",
+      "tags": [
+        "tricentis",
+        "tosca",
+        "qtest",
+        "test automation",
+        "continuous testing",
+        "enterprise testing",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/tricentis.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/tricentis-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/tricentis-white.svg"
+      }
+    },
+    {
+      "id": "penetration-testing",
+      "name": "Custom Penetration Testing",
+      "category": "tech-logos",
+      "tags": [
+        "penetration testing",
+        "pentest",
+        "ethical hacking",
+        "security methodologies",
+        "vulnerability exploit",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/penetration-testing.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/penetration-testing-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/penetration-testing-white.svg"
+      }
+    },
+    {
+      "id": "api-validation",
+      "name": "Custom API Validation",
+      "category": "tech-logos",
+      "tags": [
+        "api validation",
+        "custom api validation",
+        "json schema",
+        "rest validation",
+        "api testing framework",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/api-validation.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/api-validation-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/api-validation-white.svg"
       }
     }
   ]
