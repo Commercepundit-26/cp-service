@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#1E2B37"/>
+  <!-- Jungle Scout Orange Explorer Leaf Badge -->
+  <path d="M128 44c44.2 0 80 35.8 80 80 0 44.2-35.8 80-80 80-44.2 0-80-35.8-80-80 0-44.2 35.8-80 80-80z" fill="#FF7A00"/>
+  <path d="M128 64c33.1 0 60 26.9 60 60s-26.9 60-60 60-60-26.9-60-60 26.9-60 60-60z" fill="#1E2B37"/>
+  <path d="M128 84v80M96 124h64" stroke="#FF7A00" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="128" cy="124" r="14" fill="#FFFFFF"/>
+</svg>

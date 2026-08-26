@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#007185"/>
+  <!-- Brand Protection Shield with Registered R -->
+  <path d="M128 44l68 28v56c0 52-38 92-68 104-30-12-68-52-68-104V72l68-28z" fill="#232F3E"/>
+  <circle cx="128" cy="120" r="32" fill="none" stroke="#FF9900" stroke-width="10"/>
+  <text x="128" y="132" font-family="system-ui, sans-serif" font-size="36" font-weight="900" fill="#FF9900" text-anchor="middle">R</text>
+</svg>

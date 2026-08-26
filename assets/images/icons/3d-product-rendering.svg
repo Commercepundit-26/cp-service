@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="r3dGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#r3dGrad)"/>
+  <!-- Isometric 3D CGI Cube -->
+  <polygon points="128 48 204 92 128 136 52 92" fill="#FFFFFF"/>
+  <polygon points="52 92 128 136 128 216 52 172" fill="#C084FC"/>
+  <polygon points="204 92 128 136 128 216 204 172" fill="#E9D5FF"/>
+  <circle cx="128" cy="48" r="8" fill="#FFD700"/>
+</svg>

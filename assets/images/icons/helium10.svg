@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="h10Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0056B3"/>
+      <stop offset="100%" stop-color="#002D62"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#h10Grad)"/>
+  <!-- Helium 10 Cube / Hexagon Mark -->
+  <polygon points="128 44 204 88 204 172 128 216 52 172 52 88" fill="none" stroke="#00D2D3" stroke-width="16" stroke-linejoin="round"/>
+  <text x="128" y="148" font-family="system-ui, sans-serif" font-size="76" font-weight="900" fill="#FF6B00" text-anchor="middle" letter-spacing="-2">H</text>
+  <text x="176" y="184" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#00D2D3" text-anchor="middle">10</text>
+</svg>

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3197,
+  "total_icons": 3221,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -338,9 +338,11 @@
       "category": "tech-logos",
       "tags": [
         "adobe",
-        "design",
-        "platform",
-        "adobe.com",
+        "adobe creative cloud",
+        "photoshop",
+        "illustrator",
+        "creative content",
+        "amazon creative",
         "tech-logos"
       ],
       "urls": {
@@ -71580,9 +71582,9 @@
       "category": "tech-logos",
       "tags": [
         "amazon",
-        "marketplace",
-        "ecommerce",
-        "retail",
+        "amazon marketing",
+        "amazon advertising",
+        "ecommerce marketplace",
         "tech-logos"
       ],
       "urls": {
@@ -71960,10 +71962,9 @@
       "tags": [
         "looker",
         "looker studio",
-        "bi",
-        "reporting",
-        "dashboards",
-        "google",
+        "google cloud bi",
+        "analytics reporting",
+        "amazon dashboard",
         "tech-logos"
       ],
       "urls": {
@@ -72216,10 +72217,10 @@
       "category": "tech-logos",
       "tags": [
         "tableau",
-        "bi",
+        "salesforce tableau",
+        "bi dashboards",
+        "amazon reporting",
         "data visualization",
-        "reporting",
-        "analytics",
         "tech-logos"
       ],
       "urls": {
@@ -73581,6 +73582,448 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/api-validation.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/api-validation-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/api-validation-white.svg"
+      }
+    },
+    {
+      "id": "amazon-seller-central",
+      "name": "Amazon Seller Central",
+      "category": "tech-logos",
+      "tags": [
+        "amazon seller central",
+        "seller central",
+        "amazon advertising",
+        "3p seller",
+        "fba",
+        "amazon store",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-seller-central.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-seller-central-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-seller-central-white.svg"
+      }
+    },
+    {
+      "id": "amazon-vendor-central",
+      "name": "Amazon Vendor Central",
+      "category": "tech-logos",
+      "tags": [
+        "amazon vendor central",
+        "vendor central",
+        "1p vendor",
+        "direct fulfillment",
+        "wholesale",
+        "amazon",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-vendor-central.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-vendor-central-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-vendor-central-white.svg"
+      }
+    },
+    {
+      "id": "amazon-ads",
+      "name": "Amazon Ads Console",
+      "category": "tech-logos",
+      "tags": [
+        "amazon ads",
+        "amazon advertising",
+        "sponsored products",
+        "sponsored brands",
+        "sponsored display",
+        "ppc",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-ads.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-ads-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-ads-white.svg"
+      }
+    },
+    {
+      "id": "amazon-dsp",
+      "name": "Amazon DSP",
+      "category": "tech-logos",
+      "tags": [
+        "amazon dsp",
+        "demand side platform",
+        "programmatic ads",
+        "retargeting",
+        "display video ads",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-dsp.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-dsp-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-dsp-white.svg"
+      }
+    },
+    {
+      "id": "amazon-marketing-cloud",
+      "name": "Amazon Marketing Cloud (AMC)",
+      "category": "tech-logos",
+      "tags": [
+        "amazon marketing cloud",
+        "amc",
+        "sql analytics",
+        "event level data",
+        "attribution",
+        "audience insights",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-marketing-cloud.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-marketing-cloud-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-marketing-cloud-white.svg"
+      }
+    },
+    {
+      "id": "helium10",
+      "name": "Helium 10",
+      "category": "tech-logos",
+      "tags": [
+        "helium 10",
+        "helium10",
+        "amazon ppc",
+        "keyword research",
+        "product research",
+        "fba tools",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/helium10.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/helium10-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/helium10-white.svg"
+      }
+    },
+    {
+      "id": "junglescout",
+      "name": "Jungle Scout",
+      "category": "tech-logos",
+      "tags": [
+        "jungle scout",
+        "junglescout",
+        "product research",
+        "sales estimator",
+        "amazon seller tools",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/junglescout.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/junglescout-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/junglescout-white.svg"
+      }
+    },
+    {
+      "id": "datadive",
+      "name": "DataDive",
+      "category": "tech-logos",
+      "tags": [
+        "datadive",
+        "amazon listing optimization",
+        "master keyword list",
+        "rank tracking",
+        "data analytics",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/datadive.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/datadive-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/datadive-white.svg"
+      }
+    },
+    {
+      "id": "scale-insights",
+      "name": "Scale Insights",
+      "category": "tech-logos",
+      "tags": [
+        "scale insights",
+        "amazon ppc automation",
+        "algorithmic bidding",
+        "rule based ads",
+        "scale insights",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/scale-insights.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/scale-insights-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/scale-insights-white.svg"
+      }
+    },
+    {
+      "id": "bid-optimization",
+      "name": "Bid Optimization Frameworks",
+      "category": "tech-logos",
+      "tags": [
+        "bid optimization",
+        "amazon ppc algorithms",
+        "target acos",
+        "dayparting",
+        "smart bidding",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bid-optimization.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bid-optimization-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/bid-optimization-white.svg"
+      }
+    },
+    {
+      "id": "helium10-cerebro",
+      "name": "Helium 10 Cerebro",
+      "category": "tech-logos",
+      "tags": [
+        "cerebro",
+        "helium 10 cerebro",
+        "reverse asin",
+        "keyword research",
+        "competitor analysis",
+        "search volume",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/helium10-cerebro.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/helium10-cerebro-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/helium10-cerebro-white.svg"
+      }
+    },
+    {
+      "id": "merchantwords",
+      "name": "MerchantWords",
+      "category": "tech-logos",
+      "tags": [
+        "merchantwords",
+        "amazon keyword search volume",
+        "buyer search queries",
+        "amazon seo",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/merchantwords.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/merchantwords-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/merchantwords-white.svg"
+      }
+    },
+    {
+      "id": "amazon-brand-analytics",
+      "name": "Amazon Brand Analytics",
+      "category": "tech-logos",
+      "tags": [
+        "amazon brand analytics",
+        "aba",
+        "search frequency rank",
+        "top clicked asins",
+        "market basket",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-brand-analytics.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-brand-analytics-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-brand-analytics-white.svg"
+      }
+    },
+    {
+      "id": "search-query-performance",
+      "name": "Search Query Performance (SQP)",
+      "category": "tech-logos",
+      "tags": [
+        "search query performance",
+        "sqp",
+        "amazon brand analytics",
+        "impressions",
+        "clicks",
+        "cart adds",
+        "purchases",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/search-query-performance.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/search-query-performance-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/search-query-performance-white.svg"
+      }
+    },
+    {
+      "id": "adobe-creative-cloud",
+      "name": "Adobe Creative Suite",
+      "category": "tech-logos",
+      "tags": [
+        "adobe creative cloud",
+        "adobe",
+        "photoshop",
+        "illustrator",
+        "indesign",
+        "creative suite",
+        "design",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/adobe-creative-cloud.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/adobe-creative-cloud-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/adobe-creative-cloud-white.svg"
+      }
+    },
+    {
+      "id": "aplus-content",
+      "name": "Custom A+ Content Frameworks",
+      "category": "tech-logos",
+      "tags": [
+        "a+ content",
+        "amazon a+ content",
+        "enhanced brand content",
+        "ebc",
+        "premium a+",
+        "brand story",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aplus-content.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aplus-content-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aplus-content-white.svg"
+      }
+    },
+    {
+      "id": "lifestyle-photography",
+      "name": "Lifestyle Photography",
+      "category": "tech-logos",
+      "tags": [
+        "lifestyle photography",
+        "amazon product photography",
+        "studio photoshoot",
+        "infographics",
+        "visual content",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/lifestyle-photography.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/lifestyle-photography-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/lifestyle-photography-white.svg"
+      }
+    },
+    {
+      "id": "3d-product-rendering",
+      "name": "3D Product Rendering",
+      "category": "tech-logos",
+      "tags": [
+        "3d rendering",
+        "3d product rendering",
+        "cgi",
+        "cad modeling",
+        "photorealistic rendering",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/3d-product-rendering.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/3d-product-rendering-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/3d-product-rendering-white.svg"
+      }
+    },
+    {
+      "id": "looker-studio",
+      "name": "Looker Studio",
+      "category": "tech-logos",
+      "tags": [
+        "looker studio",
+        "google looker studio",
+        "data studio",
+        "bi dashboards",
+        "amazon reporting",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/looker-studio.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/looker-studio-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/looker-studio-white.svg"
+      }
+    },
+    {
+      "id": "acos-tacos-dashboard",
+      "name": "Custom ACOS/TACOS Dashboards",
+      "category": "tech-logos",
+      "tags": [
+        "acos",
+        "tacos",
+        "acos tacos dashboard",
+        "advertising cost of sales",
+        "amazon roi",
+        "ppc reporting",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/acos-tacos-dashboard.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/acos-tacos-dashboard-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/acos-tacos-dashboard-white.svg"
+      }
+    },
+    {
+      "id": "amazon-brand-registry",
+      "name": "Amazon Brand Registry",
+      "category": "tech-logos",
+      "tags": [
+        "amazon brand registry",
+        "brand protection",
+        "trademark protection",
+        "counterfeit removal",
+        "ip protection",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-brand-registry.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-brand-registry-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-brand-registry-white.svg"
+      }
+    },
+    {
+      "id": "ip-alert",
+      "name": "IP Alert",
+      "category": "tech-logos",
+      "tags": [
+        "ip alert",
+        "brand protection",
+        "intellectual property",
+        "ip claim detector",
+        "amazon seller warning",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ip-alert.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ip-alert-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ip-alert-white.svg"
+      }
+    },
+    {
+      "id": "transparency-program",
+      "name": "Amazon Transparency Program",
+      "category": "tech-logos",
+      "tags": [
+        "transparency program",
+        "amazon transparency",
+        "2d serialization",
+        "barcode verification",
+        "counterfeit prevention",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/transparency-program.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/transparency-program-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/transparency-program-white.svg"
+      }
+    },
+    {
+      "id": "amazon-project-zero",
+      "name": "Amazon Project Zero",
+      "category": "tech-logos",
+      "tags": [
+        "amazon project zero",
+        "project zero",
+        "automated protections",
+        "counterfeit self service removal",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-project-zero.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-project-zero-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-project-zero-white.svg"
       }
     }
   ]

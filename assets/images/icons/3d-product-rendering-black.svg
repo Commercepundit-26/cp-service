@@ -1,0 +1,11 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Isometric 3D CGI Cube -->
+<polygon fill="#FFFFFF" points="128 48 204 92 128 136 52 92"></polygon>
+<polygon fill="#FFFFFF" points="52 92 128 136 128 216 52 172"></polygon>
+<polygon fill="#FFFFFF" points="204 92 128 136 128 216 204 172"></polygon>
+<circle cx="128" cy="48" fill="#FFFFFF" r="8"></circle>
+</svg>

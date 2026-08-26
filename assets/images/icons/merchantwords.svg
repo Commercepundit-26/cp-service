@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#1E293B"/>
+  <!-- Keyword Search Query Bars -->
+  <rect x="52" y="72" width="152" height="28" rx="8" fill="#2563EB"/>
+  <rect x="52" y="112" width="112" height="28" rx="8" fill="#38BDF8"/>
+  <rect x="52" y="152" width="80" height="28" rx="8" fill="#06B6D4"/>
+  <circle cx="180" cy="152" r="24" fill="#FF9900"/>
+  <path d="M196 168l16 16" stroke="#FF9900" stroke-width="8" stroke-linecap="round"/>
+</svg>

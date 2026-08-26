@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#EA580C"/>
+  <!-- A+ Content Modular Layout Grid -->
+  <rect x="52" y="52" width="152" height="52" rx="8" fill="#FFFFFF"/>
+  <rect x="52" y="116" width="70" height="84" rx="8" fill="#FACC15"/>
+  <rect x="134" y="116" width="70" height="84" rx="8" fill="#FFFFFF"/>
+  <text x="128" y="92" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#EA580C" text-anchor="middle">A+</text>
+</svg>

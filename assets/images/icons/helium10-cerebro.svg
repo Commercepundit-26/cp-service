@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#cbGrad)"/>
+  <!-- Cerebro Reverse ASIN Brain & Keyword Synapses -->
+  <circle cx="96" cy="100" r="20" fill="#FFFFFF"/>
+  <circle cx="160" cy="100" r="20" fill="#FFFFFF"/>
+  <circle cx="128" cy="156" r="26" fill="#FFFFFF"/>
+  <line x1="96" y1="100" x2="160" y2="100" stroke="#FFFFFF" stroke-width="10"/>
+  <line x1="96" y1="100" x2="128" y2="156" stroke="#FFFFFF" stroke-width="10"/>
+  <line x1="160" y1="100" x2="128" y2="156" stroke="#FFFFFF" stroke-width="10"/>
+  <text x="128" y="224" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Cerebro</text>
+</svg>

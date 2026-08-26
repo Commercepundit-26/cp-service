@@ -1,0 +1,14 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Cerebro Reverse ASIN Brain & Keyword Synapses -->
+<circle cx="96" cy="100" fill="#FFFFFF" r="20"></circle>
+<circle cx="160" cy="100" fill="#FFFFFF" r="20"></circle>
+<circle cx="128" cy="156" fill="#FFFFFF" r="26"></circle>
+<line stroke="#FFFFFF" stroke-width="10" x1="96" x2="160" y1="100" y2="100"></line>
+<line stroke="#FFFFFF" stroke-width="10" x1="96" x2="128" y1="100" y2="156"></line>
+<line stroke="#FFFFFF" stroke-width="10" x1="160" x2="128" y1="100" y2="156"></line>
+<text fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" x="128" y="224">Cerebro</text>
+</svg>

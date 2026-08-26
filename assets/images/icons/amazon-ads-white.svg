@@ -1,0 +1,10 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- Target Retargeting & Ad Signal -->
+<circle cx="128" cy="116" fill="none" r="64" stroke="#000000" stroke-width="16"></circle>
+<circle cx="128" cy="116" fill="none" r="36" stroke="#000000" stroke-width="14"></circle>
+<circle cx="128" cy="116" fill="#000000" r="14"></circle>
+<!-- Amazon Smile -->
+<path d="M68 208c38 20 82 20 120 0" fill="none" stroke="#000000" stroke-linecap="round" stroke-width="14"></path>
+<path d="M188 204l8 8-16 2z" fill="#000000"></path>
+</svg>

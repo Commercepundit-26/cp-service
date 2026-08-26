@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#FFFFFF"/>
+  <!-- Google Looker Studio Multi-color Analytics Bars -->
+  <rect x="60" y="136" width="28" height="64" rx="14" fill="#4285F4"/>
+  <rect x="96" y="96" width="28" height="104" rx="14" fill="#EA4335"/>
+  <rect x="132" y="60" width="28" height="140" rx="14" fill="#FBBC04"/>
+  <rect x="168" y="116" width="28" height="84" rx="14" fill="#34A853"/>
+</svg>

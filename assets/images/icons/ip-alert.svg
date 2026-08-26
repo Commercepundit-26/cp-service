@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#DC2626"/>
+  <!-- IP Protection Warning Triangle -->
+  <polygon points="128 44 216 196 40 196" fill="#FEF08A"/>
+  <text x="128" y="152" font-family="system-ui, sans-serif" font-size="44" font-weight="900" fill="#DC2626" text-anchor="middle">IP</text>
+  <circle cx="128" cy="178" r="8" fill="#DC2626"/>
+</svg>

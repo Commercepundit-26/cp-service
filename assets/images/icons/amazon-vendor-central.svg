@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#146EB4"/>
+  <!-- 1P Vendor Logistics & Wholesale Box -->
+  <polygon points="128 48 208 92 128 136 48 92" fill="#FF9900"/>
+  <polygon points="48 92 128 136 128 208 48 164" fill="#232F3E"/>
+  <polygon points="208 92 128 136 128 208 208 164" fill="#FFFFFF"/>
+  <path d="M88 152l40 24 40-24" fill="none" stroke="#FF9900" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

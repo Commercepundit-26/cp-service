@@ -1,0 +1,10 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- Helium 10 Cube / Hexagon Mark -->
+<polygon fill="none" points="128 44 204 88 204 172 128 216 52 172 52 88" stroke="#000000" stroke-linejoin="round" stroke-width="16"></polygon>
+<text fill="#000000" font-family="system-ui, sans-serif" font-size="76" font-weight="900" letter-spacing="-2" text-anchor="middle" x="128" y="148">H</text>
+<text fill="#000000" font-family="system-ui, sans-serif" font-size="34" font-weight="900" text-anchor="middle" x="176" y="184">10</text>
+</svg>

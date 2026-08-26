@@ -1,0 +1,11 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- Funnel Report Steps: Impressions, Clicks, Purchases -->
+<polygon fill="#000000" points="60 64 196 64 172 104 84 104"></polygon>
+<polygon fill="#000000" opacity="0.85" points="84 112 172 112 152 152 104 152"></polygon>
+<polygon fill="#000000" points="104 160 152 160 136 196 120 196"></polygon>
+<text fill="#000000" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" x="128" y="232">SQP Reports</text>
+</svg>

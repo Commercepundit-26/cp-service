@@ -1,0 +1,8 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- Pro Camera & Lens Aperture -->
+<rect fill="none" height="116" rx="16" stroke="#000000" stroke-width="14" width="152" x="52" y="76"></rect>
+<circle cx="128" cy="134" fill="none" r="36" stroke="#000000" stroke-width="14"></circle>
+<circle cx="128" cy="134" fill="#000000" r="14"></circle>
+<path d="M88 76l16-24h48l16 24" fill="none" stroke="#000000" stroke-linejoin="round" stroke-width="14"></path>
+</svg>

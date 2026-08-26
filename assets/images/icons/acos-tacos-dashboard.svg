@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+  <!-- ACOS / TACOS Efficiency Speedometer -->
+  <path d="M52 168a88 88 0 1 1 152 0" fill="none" stroke="#10B981" stroke-width="18" stroke-linecap="round"/>
+  <line x1="128" y1="140" x2="168" y2="88" stroke="#F59E0B" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="128" cy="140" r="14" fill="#FFFFFF"/>
+  <text x="128" y="218" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#10B981" text-anchor="middle">ACOS • TACOS</text>
+</svg>

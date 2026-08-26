@@ -1,0 +1,8 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Algorithmic Bidding Gauge & Target Multiplier -->
+<circle cx="128" cy="120" fill="none" r="64" stroke="#FFFFFF" stroke-width="16"></circle>
+<path d="M128 120l36-36" stroke="#FFFFFF" stroke-linecap="round" stroke-width="14"></path>
+<circle cx="128" cy="120" fill="#FFFFFF" r="14"></circle>
+<text fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" x="128" y="222">Bid Optimization</text>
+</svg>

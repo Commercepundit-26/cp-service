@@ -1,0 +1,8 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- Scale & Growth Insights -->
+<path d="M56 188l44-52 36 28 52-68" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></path>
+<circle cx="188" cy="96" fill="#000000" r="16"></circle>
+<path d="M128 44v32M68 64l24 24M188 64l-24 24" stroke="#000000" stroke-linecap="round" stroke-width="8"></path>
+<text fill="#000000" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" x="128" y="224">Scale Insights</text>
+</svg>

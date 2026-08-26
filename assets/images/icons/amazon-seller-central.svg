@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="scGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#232F3E"/>
+      <stop offset="100%" stop-color="#131A22"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#scGrad)"/>
+  <!-- Merchant Storefront -->
+  <path d="M52 108h152l-12-44H64l-12 44z" fill="#FF9900"/>
+  <path d="M60 108v84h136v-84" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round"/>
+  <!-- Seller Door -->
+  <rect x="108" y="136" width="40" height="56" rx="4" fill="#FF9900"/>
+  <!-- Amazon Smile Curve -->
+  <path d="M72 216c36 18 76 18 112 0" fill="none" stroke="#FF9900" stroke-width="14" stroke-linecap="round"/>
+  <path d="M184 212l8 8-16 2z" fill="#FF9900"/>
+</svg>
