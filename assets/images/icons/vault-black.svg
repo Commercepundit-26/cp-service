@@ -1,12 +1,1 @@
-<svg fill="none" height="24" stroke="#FC766A" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<rect height="18" rx="2" width="18" x="3" y="3"></rect>
-<circle cx="7.5" cy="7.5" fill="#000000" r=".5"></circle>
-<path d="m7.9 7.9 2.7 2.7" fill="#000000"></path>
-<circle cx="16.5" cy="7.5" fill="#000000" r=".5"></circle>
-<path d="m13.4 10.6 2.7-2.7" fill="#000000"></path>
-<circle cx="7.5" cy="16.5" fill="#000000" r=".5"></circle>
-<path d="m7.9 16.1 2.7-2.7" fill="#000000"></path>
-<circle cx="16.5" cy="16.5" fill="#000000" r=".5"></circle>
-<path d="m13.4 13.4 2.7 2.7" fill="#000000"></path>
-<circle cx="12" cy="12" r="2"></circle>
-</svg>
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Vault</title><path fill="#000000" d="M0 0l11.955 24L24 0zm13.366 4.827h1.393v1.38h-1.393zm-2.77 5.569H9.22V8.993h1.389zm0-2.087H9.22V6.906h1.389zm0-2.086H9.22V4.819h1.389zm2.087 6.263h-1.377V11.08h1.388zm0-2.09h-1.377V8.993h1.388zm0-2.087h-1.377V6.906h1.388zm0-2.086h-1.377V4.819h1.388zm.683.683h1.393v1.389h-1.393zm0 3.475V8.993h1.389v1.388Z"/></svg>
