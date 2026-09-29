@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3236,
+  "total_icons": 3197,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -19868,22 +19868,6 @@
       }
     },
     {
-      "id": "docker",
-      "name": "Docker",
-      "category": "tech-logos",
-      "tags": [
-        "docker",
-        "containers",
-        "docker logo",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/docker.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/docker-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/docker-white.svg"
-      }
-    },
-    {
       "id": "logo-docker",
       "name": "Docker",
       "category": "tech-logos",
@@ -22460,22 +22444,6 @@
         "fastapi",
         "framework",
         "fastapi.tiangolo.com",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fastapi.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fastapi-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fastapi-white.svg"
-      }
-    },
-    {
-      "id": "fastapi",
-      "name": "FastAPI",
-      "category": "tech-logos",
-      "tags": [
-        "fastapi",
-        "python",
-        "fastapi logo",
         "tech-logos"
       ],
       "urls": {
@@ -34638,22 +34606,6 @@
         "linkedin",
         "social",
         "linkedin.com",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/linkedin.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/linkedin-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/linkedin-white.svg"
-      }
-    },
-    {
-      "id": "linkedin",
-      "name": "LinkedIn",
-      "category": "tech-logos",
-      "tags": [
-        "linkedin",
-        "social",
-        "linkedin logo",
         "tech-logos"
       ],
       "urls": {
@@ -48195,22 +48147,6 @@
       }
     },
     {
-      "id": "pycharm",
-      "name": "PyCharm",
-      "category": "tech-logos",
-      "tags": [
-        "pycharm",
-        "software",
-        "jetbrains.com",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/pycharm.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/pycharm-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/pycharm-white.svg"
-      }
-    },
-    {
       "id": "pyramid",
       "name": "Pyramid",
       "category": "icons",
@@ -48268,21 +48204,6 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/logo-python.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/logo-python-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/logo-python-white.svg"
-      }
-    },
-    {
-      "id": "python",
-      "name": "Python",
-      "category": "tech-logos",
-      "tags": [
-        "python",
-        "python logo",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/python.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/python-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/python-white.svg"
       }
     },
     {
@@ -48509,23 +48430,6 @@
         "light",
         "r-project.org",
         "r (light)",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/r.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/r-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/r-white.svg"
-      }
-    },
-    {
-      "id": "r",
-      "name": "R Programming",
-      "category": "tech-logos",
-      "tags": [
-        "r programming",
-        "statistics",
-        "r",
-        "r programming logo",
         "tech-logos"
       ],
       "urls": {
@@ -52104,22 +52008,6 @@
         "scala",
         "language",
         "scala-lang.org",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/scala.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/scala-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/scala-white.svg"
-      }
-    },
-    {
-      "id": "scala",
-      "name": "Scala",
-      "category": "tech-logos",
-      "tags": [
-        "scala",
-        "functional lang",
-        "scala logo",
         "tech-logos"
       ],
       "urls": {
@@ -69169,22 +69057,6 @@
       }
     },
     {
-      "id": "youtube",
-      "name": "YouTube",
-      "category": "tech-logos",
-      "tags": [
-        "youtube",
-        "video",
-        "youtube logo",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/youtube.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/youtube-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/youtube-white.svg"
-      }
-    },
-    {
       "id": "youtube_music",
       "name": "Youtube Music",
       "category": "tech-logos",
@@ -70339,41 +70211,6 @@
       }
     },
     {
-      "id": "meta",
-      "name": "Meta (Facebook)",
-      "category": "tech-logos",
-      "tags": [
-        "meta",
-        "facebook",
-        "pixel",
-        "ads",
-        "marketing",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/meta.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/meta-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/meta-white.svg"
-      }
-    },
-    {
-      "id": "paypal",
-      "name": "PayPal",
-      "category": "tech-logos",
-      "tags": [
-        "paypal",
-        "payment",
-        "wallet",
-        "finance",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/paypal.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/paypal-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/paypal-white.svg"
-      }
-    },
-    {
       "id": "shopware",
       "name": "Shopware",
       "category": "tech-logos",
@@ -70388,40 +70225,6 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/shopware.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/shopware-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/shopware-white.svg"
-      }
-    },
-    {
-      "id": "square",
-      "name": "Square",
-      "category": "tech-logos",
-      "tags": [
-        "square",
-        "payment",
-        "pos",
-        "finance",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/square.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/square-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/square-white.svg"
-      }
-    },
-    {
-      "id": "stripe",
-      "name": "Stripe",
-      "category": "tech-logos",
-      "tags": [
-        "stripe",
-        "payment",
-        "gateway",
-        "finance",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/stripe.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/stripe-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/stripe-white.svg"
       }
     },
     {
@@ -70545,40 +70348,6 @@
       }
     },
     {
-      "id": "php",
-      "name": "PHP",
-      "category": "tech-logos",
-      "tags": [
-        "php",
-        "backend",
-        "language",
-        "server",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/php.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/php-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/php-white.svg"
-      }
-    },
-    {
-      "id": "python",
-      "name": "Python",
-      "category": "tech-logos",
-      "tags": [
-        "python",
-        "backend",
-        "language",
-        "AI",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/python.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/python-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/python-white.svg"
-      }
-    },
-    {
       "id": "mysql",
       "name": "MySQL",
       "category": "tech-logos",
@@ -70593,74 +70362,6 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mysql.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mysql-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mysql-white.svg"
-      }
-    },
-    {
-      "id": "postgresql",
-      "name": "PostgreSQL",
-      "category": "tech-logos",
-      "tags": [
-        "postgresql",
-        "database",
-        "sql",
-        "storage",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/postgresql.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/postgresql-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/postgresql-white.svg"
-      }
-    },
-    {
-      "id": "redis",
-      "name": "Redis",
-      "category": "tech-logos",
-      "tags": [
-        "redis",
-        "database",
-        "cache",
-        "storage",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/redis.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/redis-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/redis-white.svg"
-      }
-    },
-    {
-      "id": "docker",
-      "name": "Docker",
-      "category": "tech-logos",
-      "tags": [
-        "docker",
-        "container",
-        "devops",
-        "infrastructure",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/docker.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/docker-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/docker-white.svg"
-      }
-    },
-    {
-      "id": "kubernetes",
-      "name": "Kubernetes",
-      "category": "tech-logos",
-      "tags": [
-        "kubernetes",
-        "container",
-        "devops",
-        "infrastructure",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kubernetes.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kubernetes-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kubernetes-white.svg"
       }
     },
     {
@@ -70713,106 +70414,6 @@
       }
     },
     {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "category": "tech-logos",
-      "tags": [
-        "perplexity",
-        "ai",
-        "search",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/perplexity.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/perplexity-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/perplexity-white.svg"
-      }
-    },
-    {
-      "id": "vercel",
-      "name": "Vercel",
-      "category": "tech-logos",
-      "tags": [
-        "vercel",
-        "cloud",
-        "hosting",
-        "frontend",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/vercel.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/vercel-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/vercel-white.svg"
-      }
-    },
-    {
-      "id": "netlify",
-      "name": "Netlify",
-      "category": "tech-logos",
-      "tags": [
-        "netlify",
-        "cloud",
-        "hosting",
-        "frontend",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/netlify.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/netlify-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/netlify-white.svg"
-      }
-    },
-    {
-      "id": "cloudflare",
-      "name": "Cloudflare",
-      "category": "tech-logos",
-      "tags": [
-        "cloudflare",
-        "cdn",
-        "security",
-        "cloud",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cloudflare.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cloudflare-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cloudflare-white.svg"
-      }
-    },
-    {
-      "id": "digitalocean",
-      "name": "DigitalOcean",
-      "category": "tech-logos",
-      "tags": [
-        "digitalocean",
-        "cloud",
-        "infrastructure",
-        "hosting",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/digitalocean.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/digitalocean-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/digitalocean-white.svg"
-      }
-    },
-    {
-      "id": "terraform",
-      "name": "Terraform",
-      "category": "tech-logos",
-      "tags": [
-        "terraform",
-        "infrastructure as code",
-        "devops",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/terraform.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/terraform-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/terraform-white.svg"
-      }
-    },
-    {
       "id": "githubactions",
       "name": "GitHub Actions",
       "category": "tech-logos",
@@ -70829,40 +70430,6 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/githubactions.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/githubactions-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/githubactions-white.svg"
-      }
-    },
-    {
-      "id": "angular",
-      "name": "Angular",
-      "category": "tech-logos",
-      "tags": [
-        "angular",
-        "javascript",
-        "frontend",
-        "framework",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/angular.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/angular-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/angular-white.svg"
-      }
-    },
-    {
-      "id": "svelte",
-      "name": "Svelte",
-      "category": "tech-logos",
-      "tags": [
-        "svelte",
-        "javascript",
-        "frontend",
-        "framework",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/svelte.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/svelte-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/svelte-white.svg"
       }
     },
     {
@@ -70883,104 +70450,6 @@
       }
     },
     {
-      "id": "tailwindcss",
-      "name": "Tailwind CSS",
-      "category": "tech-logos",
-      "tags": [
-        "tailwind css",
-        "css",
-        "styling",
-        "framework",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/tailwindcss.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/tailwindcss-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/tailwindcss-white.svg"
-      }
-    },
-    {
-      "id": "typescript",
-      "name": "TypeScript",
-      "category": "tech-logos",
-      "tags": [
-        "typescript",
-        "javascript",
-        "language",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/typescript.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/typescript-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/typescript-white.svg"
-      }
-    },
-    {
-      "id": "javascript",
-      "name": "JavaScript",
-      "category": "tech-logos",
-      "tags": [
-        "javascript",
-        "js",
-        "language",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/javascript.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/javascript-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/javascript-white.svg"
-      }
-    },
-    {
-      "id": "html5",
-      "name": "HTML5",
-      "category": "tech-logos",
-      "tags": [
-        "html5",
-        "html",
-        "markup",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/html5.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/html5-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/html5-white.svg"
-      }
-    },
-    {
-      "id": "laravel",
-      "name": "Laravel",
-      "category": "tech-logos",
-      "tags": [
-        "laravel",
-        "php",
-        "backend",
-        "framework",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/laravel.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/laravel-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/laravel-white.svg"
-      }
-    },
-    {
-      "id": "ruby",
-      "name": "Ruby",
-      "category": "tech-logos",
-      "tags": [
-        "ruby",
-        "language",
-        "backend",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ruby.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ruby-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ruby-white.svg"
-      }
-    },
-    {
       "id": "go",
       "name": "Go",
       "category": "tech-logos",
@@ -70995,126 +70464,6 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/go.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/go-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/go-white.svg"
-      }
-    },
-    {
-      "id": "swift",
-      "name": "Swift",
-      "category": "tech-logos",
-      "tags": [
-        "swift",
-        "ios",
-        "mobile",
-        "language",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/swift.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/swift-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/swift-white.svg"
-      }
-    },
-    {
-      "id": "kotlin",
-      "name": "Kotlin",
-      "category": "tech-logos",
-      "tags": [
-        "kotlin",
-        "android",
-        "mobile",
-        "language",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kotlin.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kotlin-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/kotlin-white.svg"
-      }
-    },
-    {
-      "id": "flutter",
-      "name": "Flutter",
-      "category": "tech-logos",
-      "tags": [
-        "flutter",
-        "mobile",
-        "framework",
-        "dart",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/flutter.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/flutter-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/flutter-white.svg"
-      }
-    },
-    {
-      "id": "mongodb",
-      "name": "MongoDB",
-      "category": "tech-logos",
-      "tags": [
-        "mongodb",
-        "database",
-        "nosql",
-        "storage",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mongodb.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mongodb-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/mongodb-white.svg"
-      }
-    },
-    {
-      "id": "sqlite",
-      "name": "SQLite",
-      "category": "tech-logos",
-      "tags": [
-        "sqlite",
-        "database",
-        "sql",
-        "storage",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/sqlite.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/sqlite-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/sqlite-white.svg"
-      }
-    },
-    {
-      "id": "firebase",
-      "name": "Firebase",
-      "category": "tech-logos",
-      "tags": [
-        "firebase",
-        "google firebase",
-        "mobile backend",
-        "crashlytics",
-        "test lab",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/firebase.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/firebase-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/firebase-white.svg"
-      }
-    },
-    {
-      "id": "supabase",
-      "name": "Supabase",
-      "category": "tech-logos",
-      "tags": [
-        "supabase",
-        "database",
-        "backend as a service",
-        "postgresql",
-        "tech-logos"
-      ],
-      "urls": {
-        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/supabase.svg",
-        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/supabase-black.svg",
-        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/supabase-white.svg"
       }
     },
     {
