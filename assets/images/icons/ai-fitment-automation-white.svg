@@ -1,0 +1,12 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- AI Neural Spark + Vehicle Parts Fitment -->
+<path d="M128 44l16 36 36 16-36 16-16 36-16-36-36-16 36-16 16-36z" fill="#000000"></path>
+<!-- Automotive Wheel with AI Target -->
+<circle cx="128" cy="160" fill="none" r="32" stroke="#000000" stroke-width="10"></circle>
+<circle cx="128" cy="160" fill="#000000" r="12"></circle>
+<text fill="#000000" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" x="128" y="226">AI Fitment Auto</text>
+</svg>

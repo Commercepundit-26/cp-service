@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3221,
+  "total_icons": 3236,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -948,8 +948,10 @@
       "category": "tech-logos",
       "tags": [
         "algolia",
-        "library",
-        "algolia.com",
+        "search api",
+        "instant search",
+        "fast search",
+        "catalog discovery",
         "tech-logos"
       ],
       "urls": {
@@ -51741,8 +51743,11 @@
       "category": "tech-logos",
       "tags": [
         "salesforce",
-        "software",
-        "salesforce.com",
+        "crm",
+        "sales cloud",
+        "service cloud",
+        "marketing cloud",
+        "enterprise",
         "tech-logos"
       ],
       "urls": {
@@ -71118,8 +71123,9 @@
       "category": "tech-logos",
       "tags": [
         "elasticsearch",
-        "search",
-        "database",
+        "search engine",
+        "catalog search",
+        "autocomplete",
         "tech-logos"
       ],
       "urls": {
@@ -71944,9 +71950,9 @@
       "tags": [
         "klaviyo",
         "email marketing",
-        "sms",
         "marketing automation",
-        "ecommerce",
+        "sms marketing",
+        "ecommerce marketing",
         "tech-logos"
       ],
       "urls": {
@@ -72345,6 +72351,7 @@
         "zendesk",
         "customer support",
         "helpdesk",
+        "live chat",
         "ticketing",
         "crm",
         "tech-logos"
@@ -72361,11 +72368,9 @@
       "category": "tech-logos",
       "tags": [
         "magento",
+        "magento 2",
         "adobe commerce",
-        "ecommerce",
-        "shop",
-        "store",
-        "platform",
+        "ecommerce platform",
         "tech-logos"
       ],
       "urls": {
@@ -74024,6 +74029,285 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-project-zero.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-project-zero-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/amazon-project-zero-white.svg"
+      }
+    },
+    {
+      "id": "magento-2",
+      "name": "Magento 2",
+      "category": "tech-logos",
+      "tags": [
+        "magento 2",
+        "magento",
+        "adobe commerce",
+        "ecommerce platform",
+        "online store",
+        "php",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/magento-2.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/magento-2-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/magento-2-white.svg"
+      }
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "category": "tech-logos",
+      "tags": [
+        "aws",
+        "amazon web services",
+        "cloud hosting",
+        "infrastructure",
+        "cloud computing",
+        "s3",
+        "ec2",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aws.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aws-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/aws-white.svg"
+      }
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "tech-logos",
+      "tags": [
+        "next.js",
+        "nextjs",
+        "react framework",
+        "server side rendering",
+        "ssr",
+        "vercel",
+        "frontend",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nextjs.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nextjs-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/nextjs-white.svg"
+      }
+    },
+    {
+      "id": "adobe-analytics",
+      "name": "Adobe Analytics",
+      "category": "tech-logos",
+      "tags": [
+        "adobe analytics",
+        "omniture",
+        "web analytics",
+        "enterprise analytics",
+        "marketing reporting",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/adobe-analytics.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/adobe-analytics-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/adobe-analytics-white.svg"
+      }
+    },
+    {
+      "id": "supplier-apis",
+      "name": "Supplier APIs",
+      "category": "tech-logos",
+      "tags": [
+        "supplier apis",
+        "supplier integration",
+        "b2b api",
+        "edi",
+        "dropshipping",
+        "inventory feed",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/supplier-apis.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/supplier-apis-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/supplier-apis-white.svg"
+      }
+    },
+    {
+      "id": "fitment-engine",
+      "name": "Fitment Engine",
+      "category": "tech-logos",
+      "tags": [
+        "fitment engine",
+        "ymm",
+        "year make model",
+        "automotive fitment",
+        "parts compatibility",
+        "auto parts",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fitment-engine.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fitment-engine-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fitment-engine-white.svg"
+      }
+    },
+    {
+      "id": "ai-fitment-automation",
+      "name": "AI Fitment Automation",
+      "category": "tech-logos",
+      "tags": [
+        "ai fitment automation",
+        "machine learning fitment",
+        "aces pies",
+        "parts catalog ai",
+        "auto parts",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ai-fitment-automation.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ai-fitment-automation-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/ai-fitment-automation-white.svg"
+      }
+    },
+    {
+      "id": "import-automation",
+      "name": "Import Automation",
+      "category": "tech-logos",
+      "tags": [
+        "import automation",
+        "catalog import",
+        "product feed",
+        "bulk ingestion",
+        "automated pipeline",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/import-automation.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/import-automation-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/import-automation-white.svg"
+      }
+    },
+    {
+      "id": "real-time-inventory-sync",
+      "name": "Real-Time Inventory Sync",
+      "category": "tech-logos",
+      "tags": [
+        "real time inventory sync",
+        "multi warehouse sync",
+        "stock management",
+        "live inventory",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/real-time-inventory-sync.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/real-time-inventory-sync-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/real-time-inventory-sync-white.svg"
+      }
+    },
+    {
+      "id": "secure-payments",
+      "name": "Secure Payments",
+      "category": "tech-logos",
+      "tags": [
+        "secure payments",
+        "payment gateway",
+        "pci dss",
+        "checkout security",
+        "credit card",
+        "ssl",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/secure-payments.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/secure-payments-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/secure-payments-white.svg"
+      }
+    },
+    {
+      "id": "fraud-protection",
+      "name": "Fraud Protection",
+      "category": "tech-logos",
+      "tags": [
+        "fraud protection",
+        "fraud prevention",
+        "chargeback protection",
+        "risk assessment",
+        "ecommerce security",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fraud-protection.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fraud-protection-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/fraud-protection-white.svg"
+      }
+    },
+    {
+      "id": "cdn",
+      "name": "CDN",
+      "category": "tech-logos",
+      "tags": [
+        "cdn",
+        "content delivery network",
+        "edge caching",
+        "cloudfront",
+        "cloudflare",
+        "fastly",
+        "low latency",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cdn.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cdn-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/cdn-white.svg"
+      }
+    },
+    {
+      "id": "marketing-analytics",
+      "name": "Marketing Analytics",
+      "category": "tech-logos",
+      "tags": [
+        "marketing analytics",
+        "attribution",
+        "roi tracking",
+        "conversion rate",
+        "campaign performance",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/marketing-analytics.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/marketing-analytics-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/marketing-analytics-white.svg"
+      }
+    },
+    {
+      "id": "crm-tools",
+      "name": "CRM Tools",
+      "category": "tech-logos",
+      "tags": [
+        "crm tools",
+        "customer relationship management",
+        "sales pipeline",
+        "lead management",
+        "customer 360",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/crm-tools.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/crm-tools-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/crm-tools-white.svg"
+      }
+    },
+    {
+      "id": "custom-modules",
+      "name": "Custom Modules",
+      "category": "tech-logos",
+      "tags": [
+        "custom modules",
+        "magento modules",
+        "magento 2 extensions",
+        "custom plugin",
+        "backend architecture",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/custom-modules.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/custom-modules-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/custom-modules-white.svg"
       }
     }
   ]

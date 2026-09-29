@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#0F172A"/>
+  <!-- API Data Nodes & Webhook Link -->
+  <circle cx="76" cy="128" r="28" fill="#0284C7"/>
+  <circle cx="180" cy="88" r="22" fill="#38BDF8"/>
+  <circle cx="180" cy="168" r="22" fill="#38BDF8"/>
+  <line x1="76" y1="128" x2="180" y2="88" stroke="#0284C7" stroke-width="12" stroke-linecap="round"/>
+  <line x1="76" y1="128" x2="180" y2="168" stroke="#0284C7" stroke-width="12" stroke-linecap="round"/>
+  <!-- Exchange arrows -->
+  <path d="M116 104l16 8-16 8" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M136 144l-16 8 16 8" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="222" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#38BDF8" text-anchor="middle">Supplier APIs</text>
+</svg>

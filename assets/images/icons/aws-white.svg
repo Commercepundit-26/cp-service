@@ -1,0 +1,8 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#FFFFFF" height="256" rx="56" width="256"></rect>
+<!-- AWS Wordmark -->
+<text fill="#000000" font-family="-apple-system, system-ui, sans-serif" font-size="64" font-weight="900" letter-spacing="2" text-anchor="middle" x="128" y="128">AWS</text>
+<!-- Amazon Smile Arrow -->
+<path d="M68 158c38 20 82 20 120 0" fill="none" stroke="#000000" stroke-linecap="round" stroke-width="14"></path>
+<path d="M188 154l8 8-16 2z" fill="#000000"></path>
+</svg>

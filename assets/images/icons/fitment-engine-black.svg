@@ -1,0 +1,14 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<defs>
+
+</defs>
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Vehicle Car Chassis & Fitment Verification Cog -->
+<path d="M52 144l20-36h72l24 36h36v28H52v-28z" fill="#FFFFFF"></path>
+<circle cx="84" cy="172" fill="#FFFFFF" r="16"></circle>
+<circle cx="172" cy="172" fill="#FFFFFF" r="16"></circle>
+<!-- Year Make Model Verification Check -->
+<circle cx="176" cy="92" fill="#FFFFFF" r="28"></circle>
+<path d="M164 92l8 8 16-16" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"></path>
+<text fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" x="128" y="224">Fitment Engine</text>
+</svg>

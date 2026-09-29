@@ -1,0 +1,9 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- 360-degree Customer Relationship Profile & Pipeline -->
+<circle cx="128" cy="100" fill="#FFFFFF" r="32"></circle>
+<path d="M68 184c0-33.1 26.9-60 60-60s60 26.9 60 60" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="16"></path>
+<circle cx="192" cy="76" fill="#FFFFFF" r="14"></circle>
+<circle cx="64" cy="76" fill="#FFFFFF" r="14"></circle>
+<text fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="22" font-weight="900" text-anchor="middle" x="128" y="224">CRM</text>
+</svg>

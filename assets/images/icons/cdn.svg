@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" rx="56" fill="#002F36"/>
+  <!-- Global Edge CDN Cloud & Fast Distribution Nodes -->
+  <path d="M172 148H84c-22.1 0-40-17.9-40-40 0-19.6 14.2-36 33.3-39.3C82.8 44.2 104 26 128 26c28.8 0 52.6 21.4 56.1 49.7 16.8 3.7 29.2 18.6 29.2 36.3 0 19.7-16 36-31.3 36z" fill="#00A8E1"/>
+  <!-- High Speed Edge Nodes -->
+  <circle cx="68" cy="180" r="14" fill="#FF9900"/>
+  <circle cx="128" cy="190" r="14" fill="#FF9900"/>
+  <circle cx="188" cy="180" r="14" fill="#FF9900"/>
+  <line x1="84" y1="148" x2="68" y2="180" stroke="#FF9900" stroke-width="6"/>
+  <line x1="128" y1="148" x2="128" y2="190" stroke="#FF9900" stroke-width="6"/>
+  <line x1="172" y1="148" x2="188" y2="180" stroke="#FF9900" stroke-width="6"/>
+  <text x="128" y="232" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" text-anchor="middle">CDN</text>
+</svg>

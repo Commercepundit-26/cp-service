@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="fitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#C2410C"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#fitGrad)"/>
+  <!-- Vehicle Car Chassis & Fitment Verification Cog -->
+  <path d="M52 144l20-36h72l24 36h36v28H52v-28z" fill="#FFFFFF"/>
+  <circle cx="84" cy="172" r="16" fill="#1E293B"/>
+  <circle cx="172" cy="172" r="16" fill="#1E293B"/>
+  <!-- Year Make Model Verification Check -->
+  <circle cx="176" cy="92" r="28" fill="#2563EB"/>
+  <path d="M164 92l8 8 16-16" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="224" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Fitment Engine</text>
+</svg>

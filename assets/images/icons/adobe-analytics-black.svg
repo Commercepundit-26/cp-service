@@ -1,0 +1,9 @@
+<svg height="256" viewbox="0 0 256 256" width="256" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#000000" height="256" rx="56" width="256"></rect>
+<!-- Adobe Analytics Histogram Chart & Telemetry Wave -->
+<rect fill="#FFFFFF" height="52" rx="4" width="28" x="56" y="140"></rect>
+<rect fill="#FFFFFF" height="88" rx="4" width="28" x="96" y="104"></rect>
+<rect fill="#FFFFFF" height="120" rx="4" width="28" x="136" y="72"></rect>
+<rect fill="#FFFFFF" height="72" rx="4" width="28" x="176" y="120"></rect>
+<path d="M52 136l44-36 40-32 40 48" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"></path>
+</svg>

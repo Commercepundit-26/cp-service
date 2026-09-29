@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="aiFitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#aiFitGrad)"/>
+  <!-- AI Neural Spark + Vehicle Parts Fitment -->
+  <path d="M128 44l16 36 36 16-36 16-16 36-16-36-36-16 36-16 16-36z" fill="#06B6D4"/>
+  <!-- Automotive Wheel with AI Target -->
+  <circle cx="128" cy="160" r="32" fill="none" stroke="#FFFFFF" stroke-width="10"/>
+  <circle cx="128" cy="160" r="12" fill="#06B6D4"/>
+  <text x="128" y="226" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AI Fitment Auto</text>
+</svg>
