@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "total_icons": 3197,
+  "total_icons": 3199,
   "documentation": "Direct static vector endpoints for AI agents and web crawlers",
   "icons": [
     {
@@ -73657,6 +73657,44 @@
         "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/custom-modules.svg",
         "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/custom-modules-black.svg",
         "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/custom-modules-white.svg"
+      }
+    },
+    {
+      "id": "rabbitmq",
+      "name": "RabbitMQ",
+      "category": "tech-logos",
+      "tags": [
+        "rabbitmq",
+        "message broker",
+        "message queue",
+        "amqp",
+        "event driven",
+        "backend",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/rabbitmq.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/rabbitmq-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/rabbitmq-white.svg"
+      }
+    },
+    {
+      "id": "distributor-apis",
+      "name": "Distributor APIs",
+      "category": "tech-logos",
+      "tags": [
+        "distributor apis",
+        "distributor api",
+        "wholesale api",
+        "supplier integration",
+        "inventory feed",
+        "b2b",
+        "tech-logos"
+      ],
+      "urls": {
+        "original": "https://commercepundit-26.github.io/cp-service/assets/images/icons/distributor-apis.svg",
+        "black": "https://commercepundit-26.github.io/cp-service/assets/images/icons/distributor-apis-black.svg",
+        "white": "https://commercepundit-26.github.io/cp-service/assets/images/icons/distributor-apis-white.svg"
       }
     }
   ]
